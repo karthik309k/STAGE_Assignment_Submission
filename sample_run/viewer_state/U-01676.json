@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-01676",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T17:16:26.964Z",
+  "deadline": "2026-10-08T17:16:26.964Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "ae7c0db2-9b85-4522-9374-56704c673fb7": "D-02630"
+ },
+ "handled_sessions": {
+  "6bd93b1a-68ab-4224-94c0-a686c522efeb": "D-02630"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02630",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T17:16:27.334Z"
+  }
+ ],
+ "actions": [
+  "A-00914"
+ ],
+ "live_page": {
+  "action_id": "A-00914",
+  "dialect": "d2",
+  "published_at": "2026-10-01T17:16:27.324Z",
+  "expires_at": "2026-10-01T19:16:27.324Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gidi-chudi-d2",
+   "guneba-guba-d2",
+   "molo-d2",
+   "neba-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:16:26.964Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01676",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T17:16:26.964Z",
+   "deadline": "2026-10-08T17:16:26.964Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G12": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G12 failed (started 2026-10-01T17:16:26.964Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

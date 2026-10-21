@@ -1,0 +1,146 @@
+{
+ "viewer_id": "U-02219",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-09-30T18:50:12.683Z",
+  "deadline": "2026-10-03T18:50:12.683Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "dhapipa-gini-d2",
+   "title_id": "T1677",
+   "next_ep": "dhapipa-gini-d2-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "35822cea-7a21-4591-9a47-07f549e1e1ed": "D-00007",
+  "11212264-75b9-4a6e-8e8d-19e190cb63ca": "D-00731",
+  "edde84b7-ebeb-4c2a-bb04-0ab8ed99ad5e": "D-01608",
+  "fc6974f2-0d84-49eb-bf34-636e97d8c1c8": "D-02753"
+ },
+ "handled_sessions": {
+  "bcb679cf-8eec-4bd2-9fdf-d6d6b4eb2333": "D-00007",
+  "5e984224-2907-4bbc-8f00-189f5157beff": "D-00731",
+  "94aba827-b64f-44ed-b078-8c03cd2b0422": "D-01608"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00007",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-09-30T18:50:13.051Z"
+  },
+  {
+   "decision_id": "D-00731",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:53:44.356Z"
+  },
+  {
+   "decision_id": "D-01608",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T12:47:34.063Z"
+  },
+  {
+   "decision_id": "D-02753",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 64385s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T18:17:35.601Z"
+  }
+ ],
+ "actions": [
+  "A-00006",
+  "A-00190",
+  "A-00540"
+ ],
+ "live_page": {
+  "action_id": "A-00540",
+  "dialect": "d2",
+  "published_at": "2026-10-01T12:47:34.053Z",
+  "expires_at": "2026-10-01T14:47:34.053Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "guneba-guba-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "momo-tibaro-d2",
+   "mopi-vasuva-d2",
+   "neba-d2",
+   "neya-kadhana-d2",
+   "nipi-maniba-d2",
+   "pirima-d2",
+   "ritisa-guti-d2",
+   "riya-d2",
+   "rone-d2",
+   "sadha-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T18:17:35.591Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02219",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-09-30T18:50:12.683Z",
+   "deadline": "2026-10-03T18:50:12.683Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-09-30T18:50:12.683Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

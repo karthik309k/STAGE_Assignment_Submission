@@ -1,0 +1,117 @@
+{
+ "viewer_id": "U-00084",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T16:30:54.764Z",
+  "deadline": "2026-10-04T16:30:54.764Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "digi-mone-d3",
+   "title_id": "T0910",
+   "next_ep": "digi-mone-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "1b17405a-4ee3-4bbe-b4e7-c1e4b169b7f0": "D-02478",
+  "c94aa986-662d-4d88-a4a9-0b4ee2141964": "D-02515",
+  "09694cd1-933d-493d-a576-4a917b95aa14": "D-02637"
+ },
+ "handled_sessions": {
+  "ba3503e8-bfe8-438c-9819-032b4e9efd13": "D-02478",
+  "388bd14d-dbe8-484d-a92c-6ab0c4bf0cec": "D-02515",
+  "3d29a5ef-5355-4038-9c66-296b38dc485b": "D-02637"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02478",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:30:55.131Z"
+  },
+  {
+   "decision_id": "D-02515",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:30:55.121Z (A-00860); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:41:47.970Z"
+  },
+  {
+   "decision_id": "D-02637",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:30:55.121Z (A-00860); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T17:18:46.543Z"
+  }
+ ],
+ "actions": [
+  "A-00860"
+ ],
+ "live_page": {
+  "action_id": "A-00860",
+  "dialect": "d3",
+  "published_at": "2026-10-01T16:30:55.121Z",
+  "expires_at": "2026-10-01T18:30:55.121Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "ririgi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:18:46.513Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00084",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T16:30:54.764Z",
+   "deadline": "2026-10-04T16:30:54.764Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T16:30:54.764Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

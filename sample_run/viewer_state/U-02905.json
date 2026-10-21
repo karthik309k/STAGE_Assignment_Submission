@@ -1,0 +1,38 @@
+{
+ "viewer_id": "U-02905",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "a43ac846-f170-4199-bf07-2c47b3a4b224": "D-00004"
+ },
+ "handled_sessions": {
+  "8b311d48-f795-419e-bde5-a8d8bbbf0ef6": "D-00004"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00004",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'NA' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-09-30T18:40:57.443Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-09-30T18:40:57.413Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

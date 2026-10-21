@@ -1,0 +1,36 @@
+{
+ "viewer_id": "U-00686",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "307695b6-77f7-4dd1-ac54-0c735bbfc02a": "D-02392"
+ },
+ "handled_sessions": {},
+ "decisions": [
+  {
+   "decision_id": "D-02392",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 613258s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T16:08:06.945Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:08:06.935Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

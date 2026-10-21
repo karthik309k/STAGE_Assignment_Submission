@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-01927",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T11:56:20.385Z",
+  "deadline": "2026-10-08T11:56:20.385Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "41cac3c0-b67b-48d1-98d8-6d018e498be7": "D-01499"
+ },
+ "handled_sessions": {
+  "7750f970-5cc8-4acd-9011-01d0f9b5a7b5": "D-01499"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01499",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T11:56:20.753Z"
+  }
+ ],
+ "actions": [
+  "A-00498"
+ ],
+ "live_page": {
+  "action_id": "A-00498",
+  "dialect": "d5",
+  "published_at": "2026-10-01T11:56:20.743Z",
+  "expires_at": "2026-10-01T13:56:20.743Z",
+  "slugs": [
+   "dhanate-d5",
+   "diti-kochu-d5",
+   "gubava-gihaya-d5",
+   "jamo-hasa-d5",
+   "kane-kopa-d5",
+   "kova-sako-d5",
+   "mori-neka-d5",
+   "nigi-risa-d5",
+   "nina-d5",
+   "pana-mobako-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "yaka-naka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T11:56:20.385Z",
+  "dialect": "d5"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01927",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T11:56:20.385Z",
+   "deadline": "2026-10-08T11:56:20.385Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T11:56:20.385Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

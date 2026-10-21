@@ -1,0 +1,115 @@
+{
+ "viewer_id": "U-03051",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T10:35:06.863Z",
+  "deadline": "2026-10-04T10:35:06.863Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bagi-baya-d4",
+   "title_id": "T0916",
+   "next_ep": "bagi-baya-d4-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "df07c579-6db5-4653-b5b8-340b5aec96f9": "D-01314"
+ },
+ "handled_sessions": {
+  "f720abad-8cb5-49b3-a7f2-a92b9ed6b0c3": "D-01314"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01314",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T10:35:06.983Z"
+  }
+ ],
+ "actions": [
+  "A-00430"
+ ],
+ "live_page": {
+  "action_id": "A-00430",
+  "dialect": "d4",
+  "published_at": "2026-10-01T10:35:06.973Z",
+  "expires_at": "2026-10-01T12:35:06.973Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "bhadha-gudapa-d4",
+   "chuma-daja-d4",
+   "dapi-sari-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "naparo-chupi-d4",
+   "nisu-sapapa-d4",
+   "pila-robha-d4",
+   "radi-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "tegu-kote-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "vapa-kalasa-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T10:35:06.863Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03051",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T10:35:06.863Z",
+   "deadline": "2026-10-04T10:35:06.863Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T10:35:06.863Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

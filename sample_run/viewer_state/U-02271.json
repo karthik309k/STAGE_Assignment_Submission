@@ -1,0 +1,46 @@
+{
+ "viewer_id": "U-02271",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "739ebfe3-39fe-4abd-b666-78acc159e9eb": "D-01875"
+ },
+ "handled_sessions": {
+  "a8fe8391-204e-472c-a951-e94ebb3fb264": "D-01875"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01875",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'NA' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T14:21:49.525Z"
+  },
+  {
+   "decision_id": "D-01925",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T14:31:49.661Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:31:49.651Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

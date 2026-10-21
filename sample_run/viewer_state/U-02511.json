@@ -1,0 +1,162 @@
+{
+ "viewer_id": "U-02511",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T04:34:20.665Z",
+  "deadline": "2026-10-04T04:34:20.665Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "hapibha-d1",
+   "title_id": "T0004",
+   "next_ep": "hapibha-d1-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "863f913c-863f-4b39-a121-54615f6c6456": "D-00340",
+  "902df3a4-e52d-4c0c-81c9-91539ddff900": "D-00341",
+  "86582f3b-2b3f-4a96-a097-543766e3d245": "D-02113",
+  "be5040c8-2d02-4cb2-aac9-2f874c3a373c": "D-02761"
+ },
+ "handled_sessions": {
+  "4f4bea7a-5440-432d-9e75-f7c166da5aae": "D-00340",
+  "5ed8911d-46ab-43cd-ab40-c25ebf2fee1c": "D-02113",
+  "bcbe5d32-b18a-4d0e-b743-5dcae433cc45": "D-02761"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00340",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T04:34:21.033Z"
+  },
+  {
+   "decision_id": "D-00341",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00340",
+   "published_at": "2026-10-01T04:34:21.212Z"
+  },
+  {
+   "decision_id": "D-02113",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:05:51.621Z"
+  },
+  {
+   "decision_id": "D-02122",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T15:06:18.355Z"
+  },
+  {
+   "decision_id": "D-02761",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T18:25:10.921Z"
+  },
+  {
+   "decision_id": "D-02769",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T18:31:25.954Z"
+  }
+ ],
+ "actions": [
+  "A-00129",
+  "A-00733",
+  "A-00948"
+ ],
+ "live_page": {
+  "action_id": "A-00948",
+  "dialect": "d1",
+  "published_at": "2026-10-01T18:25:10.911Z",
+  "expires_at": "2026-10-01T20:25:10.911Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "kopibha-niya-d1",
+   "lomamo-lonegu-d1",
+   "moya-lana-d1",
+   "naha-d1",
+   "nalochu-dhajala-d1",
+   "nidigu-d1",
+   "pate-batisa-d1",
+   "patena-d1",
+   "pipa-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raloja-d1",
+   "rimo-koni-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "tejari-bhaguri-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tilava-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T18:31:25.944Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02511",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T04:34:20.665Z",
+   "deadline": "2026-10-04T04:34:20.665Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T04:34:20.665Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

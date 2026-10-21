@@ -1,0 +1,77 @@
+{
+ "viewer_id": "U-04923",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "f1c0ca44-af61-4307-95f8-c10ecf71dda3": "D-00648",
+  "4ed6d042-5fc5-4b1b-aca3-fe372d740f33": "D-00854",
+  "5370db18-2d15-4cee-a40f-845d13326061": "D-01453",
+  "28db4504-94c8-4a6f-bf71-e237dc63ca1b": "D-02714",
+  "bae6196f-7cda-477d-90cf-3801cb0c413e": "D-02715"
+ },
+ "handled_sessions": {
+  "c93c6a2e-27ec-4c17-b2d3-66a904e1351c": "D-00648",
+  "39885dc5-ff90-4307-8949-ed4d599de3c5": "D-00854",
+  "873f2e99-7f1d-47b6-be41-3c0034c04e16": "D-01453",
+  "defc9ddc-b85e-4c3b-b532-fe0844baed22": "D-02714"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00648",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T05:15:26.076Z"
+  },
+  {
+   "decision_id": "D-00854",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T07:00:25.959Z"
+  },
+  {
+   "decision_id": "D-01453",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T11:44:02.992Z"
+  },
+  {
+   "decision_id": "D-02714",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T17:51:40.470Z"
+  },
+  {
+   "decision_id": "D-02715",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-02714",
+   "published_at": "2026-10-01T17:51:44.446Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:51:44.436Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

@@ -1,0 +1,176 @@
+{
+ "viewer_id": "U-03514",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T06:13:15.342Z",
+  "deadline": "2026-10-04T06:13:15.342Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "70f832d5-635a-4688-aac9-09f87d08e45e": "D-00766",
+  "6aae1217-c282-45fd-b274-726b427c1461": "D-01352",
+  "52e924a4-ccfc-4ff8-8d06-dd0b27240f28": "D-01584",
+  "1e562f40-d914-4b41-b6f4-5e0c5fce2f12": "D-01628",
+  "77d4fa7b-a07f-4098-a3f0-92f0103997ad": "D-02294",
+  "eb379c28-18f1-4f99-ab92-2ee4c18d7a3f": "D-02601",
+  "d2f17e59-9589-4e95-9a82-dd31806729bd": "D-02685"
+ },
+ "handled_sessions": {
+  "f4591fe8-c0c5-4ed5-8256-2c7e0c5413d3": "D-00766",
+  "a556341e-24b1-4e1d-8900-cc51081a4ce2": "D-01352",
+  "f56ad3e1-a451-4f3e-8881-75a446a59647": "D-01584",
+  "fb0dde2c-daca-490f-93fb-4093f92c49cb": "D-01628",
+  "867e9128-5748-4bfb-89d2-dd0a4ab67f0d": "D-02294",
+  "3af4c60d-8708-4efd-bcb5-f89e08704e81": "D-02601",
+  "441ecec9-ecae-42de-908a-22cd78ed9da5": "D-02685"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00766",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T06:13:15.711Z"
+  },
+  {
+   "decision_id": "D-01352",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T10:49:13.510Z"
+  },
+  {
+   "decision_id": "D-01584",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T12:37:06.316Z"
+  },
+  {
+   "decision_id": "D-01628",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T14:37:06.306Z (A-00530); no_message: goal G02 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T12:58:19.916Z"
+  },
+  {
+   "decision_id": "D-02294",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T15:36:24.477Z"
+  },
+  {
+   "decision_id": "D-02601",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'NA' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T17:07:10.851Z"
+  },
+  {
+   "decision_id": "D-02685",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T17:40:15.894Z"
+  }
+ ],
+ "actions": [
+  "A-00207",
+  "A-00446",
+  "A-00530",
+  "A-00799",
+  "A-00926"
+ ],
+ "live_page": {
+  "action_id": "A-00926",
+  "dialect": "d2",
+  "published_at": "2026-10-01T17:40:15.884Z",
+  "expires_at": "2026-10-01T19:40:15.884Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bala-naja-d2",
+   "bhatesa-bayaya-d2",
+   "dana-guchuri-d2",
+   "dhabhara-kaloka-d2",
+   "giba-hane-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "gisu-d2",
+   "giyadha-d2",
+   "guchu-riyada-d2",
+   "hako-d2",
+   "maya-d2",
+   "mopi-vasuva-d2",
+   "neba-d2",
+   "nesa-d2",
+   "paka-d2",
+   "pichu-konani-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "sadha-d2",
+   "sune-hadapa-d2",
+   "tero-koja-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "vatimo-jachu-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:40:15.823Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03514",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T06:13:15.342Z",
+   "deadline": "2026-10-04T06:13:15.342Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-022284"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G02": 1
+  },
+  "notes": [
+   "G02 succeeded (started 2026-10-01T06:13:15.342Z): keep using"
+  ]
+ },
+ "flags": []
+}

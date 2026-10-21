@@ -1,0 +1,97 @@
+{
+ "viewer_id": "U-04793",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T14:24:14.413Z",
+  "deadline": "2026-10-04T14:24:14.413Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "yatite-roloda-d3",
+   "title_id": "T0901",
+   "next_ep": "yatite-roloda-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "bae66fff-fb19-4c42-b58f-cdd9ef37d92d": "D-01889"
+ },
+ "handled_sessions": {
+  "93554bed-2246-4ad5-b555-27bf40223536": "D-01889"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01889",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T14:24:14.779Z"
+  }
+ ],
+ "actions": [
+  "A-00638"
+ ],
+ "live_page": {
+  "action_id": "A-00638",
+  "dialect": "d3",
+  "published_at": "2026-10-01T14:24:14.769Z",
+  "expires_at": "2026-10-01T16:24:14.769Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:24:14.413Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04793",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T14:24:14.413Z",
+   "deadline": "2026-10-04T14:24:14.413Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T14:24:14.413Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

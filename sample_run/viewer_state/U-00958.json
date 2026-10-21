@@ -1,0 +1,174 @@
+{
+ "viewer_id": "U-00958",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T04:32:38.391Z",
+  "deadline": "2026-10-08T04:32:38.391Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "24d6809b-678f-4478-a2d3-6fbcc4c35830": "D-00337",
+  "f6d8bbf3-d771-46ec-aa61-acb870e6d3af": "D-01067",
+  "652e82d5-81ed-4b99-8975-00e96945ba16": "D-01226",
+  "f1e6643f-d6c4-402e-a46a-64ac38954257": "D-01262",
+  "9e769c96-440f-4ed5-89b5-a9f6ee65df66": "D-01817",
+  "7e4d50d3-1ea0-4edd-b6f6-aed8265e38c8": "D-02314",
+  "2598d94e-d472-4dde-aa93-717f0d77ec18": "D-02575"
+ },
+ "handled_sessions": {
+  "982639fb-2b59-4942-81ce-553a15473816": "D-00337",
+  "a87b167b-6c54-436e-b0c6-2033839428f8": "D-01067",
+  "fc968f98-17c8-4dbd-b917-906e21f575bf": "D-01226",
+  "bf16d6d1-44fe-48c0-8528-49da5c80bc6d": "D-01262",
+  "4f9200c1-d3c5-413c-8a0a-ce388c623ad0": "D-01817",
+  "0a00f0b9-929f-4679-9e7b-0a8af3d55181": "D-02314",
+  "4f8c2e16-7385-4e2f-bcbd-5ca1bbe50efc": "D-02575"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00337",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T04:32:38.758Z"
+  },
+  {
+   "decision_id": "D-01067",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T08:32:07.558Z"
+  },
+  {
+   "decision_id": "D-01226",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T10:32:07.548Z (A-00342); no_message: goal G05 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T09:44:37.589Z"
+  },
+  {
+   "decision_id": "D-01262",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T10:06:48.384Z"
+  },
+  {
+   "decision_id": "D-01817",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T14:03:28.790Z"
+  },
+  {
+   "decision_id": "D-02314",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T15:44:23.348Z"
+  },
+  {
+   "decision_id": "D-02575",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T17:44:23.338Z (A-00807); no_message: goal G05 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:59:09.082Z"
+  }
+ ],
+ "actions": [
+  "A-00127",
+  "A-00342",
+  "A-00408",
+  "A-00609",
+  "A-00807"
+ ],
+ "live_page": {
+  "action_id": "A-00807",
+  "dialect": "d5",
+  "published_at": "2026-10-01T15:44:23.338Z",
+  "expires_at": "2026-10-01T17:44:23.338Z",
+  "slugs": [
+   "baha-d5",
+   "chuba-d5",
+   "dhanate-d5",
+   "diti-kochu-d5",
+   "hapi-niri-d5",
+   "haya-kani-d5",
+   "jamo-hasa-d5",
+   "kane-kopa-d5",
+   "kova-sako-d5",
+   "lala-gunesa-d5",
+   "mone-d5",
+   "mori-neka-d5",
+   "nechu-guchu-d5",
+   "nigi-risa-d5",
+   "nina-d5",
+   "pana-mobako-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "subhaba-nigi-d5",
+   "suchu-dagu-d5",
+   "sulo-tigiti-d5",
+   "suna-pijapi-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "vadi-teni-d5",
+   "yaka-naka-d5",
+   "yava-teka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:59:09.052Z",
+  "dialect": "d5"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00958",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T04:32:38.391Z",
+   "deadline": "2026-10-08T04:32:38.391Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T04:32:38.391Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

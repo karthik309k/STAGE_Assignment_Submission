@@ -1,0 +1,150 @@
+{
+ "viewer_id": "U-01712",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T03:30:08.890Z",
+  "deadline": "2026-10-08T03:30:08.890Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T1893"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "d368d809-c6b0-441f-b079-6f5863301890": "D-00248",
+  "44ebba46-bde7-499f-b48b-677f331177e8": "D-00614",
+  "14f87129-32e1-45d2-b9b1-e3700acc78ba": "D-01091",
+  "0cc74baa-aaa5-49b3-8b1b-8a27cde4ce14": "D-01240"
+ },
+ "handled_sessions": {
+  "a0d17963-9639-43d4-849b-5c6c6bf3e7e3": "D-00248",
+  "74d33889-58eb-4c0f-a1d3-41c1c7092c7b": "D-00614",
+  "d09ab001-407c-4a0f-abad-64b743ce7c83": "D-01091",
+  "0ad7dd73-7fdd-47dc-a64d-28244751e4b3": "D-01240"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00248",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T03:30:09.260Z"
+  },
+  {
+   "decision_id": "D-00250",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T03:31:58.933Z"
+  },
+  {
+   "decision_id": "D-00614",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T05:05:08.504Z"
+  },
+  {
+   "decision_id": "D-01091",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T08:43:20.198Z"
+  },
+  {
+   "decision_id": "D-01240",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T10:43:20.188Z (A-00353); no_message: goal G08 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T09:52:16.019Z"
+  }
+ ],
+ "actions": [
+  "A-00096",
+  "A-00151",
+  "A-00353"
+ ],
+ "live_page": {
+  "action_id": "A-00353",
+  "dialect": "d4",
+  "published_at": "2026-10-01T08:43:20.188Z",
+  "expires_at": "2026-10-01T10:43:20.188Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "hada-maloni-d4",
+   "hadi-tiba-d4",
+   "jate-nerani-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "moka-d4",
+   "mosamo-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "radi-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "sugu-rana-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaka-rachu-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T09:52:15.983Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01712",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T03:30:08.890Z",
+   "deadline": "2026-10-08T03:30:08.890Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G08": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G08 failed (started 2026-10-01T03:30:08.890Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

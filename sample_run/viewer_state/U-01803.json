@@ -1,0 +1,117 @@
+{
+ "viewer_id": "U-01803",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T07:07:53.331Z",
+  "deadline": "2026-10-08T07:07:53.331Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "0d728c3e-cb29-4d9f-a002-422a4db44121": "D-00869",
+  "59393c7a-0d42-495f-80b4-c4a2b6db708f": "D-01076"
+ },
+ "handled_sessions": {
+  "71bd86bf-17b0-496d-a58c-e56f772515a3": "D-00869"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00869",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T07:07:53.699Z"
+  },
+  {
+   "decision_id": "D-00871",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T07:07:56.918Z"
+  },
+  {
+   "decision_id": "D-01076",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 460935s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T08:37:20.899Z"
+  }
+ ],
+ "actions": [
+  "A-00265"
+ ],
+ "live_page": {
+  "action_id": "A-00265",
+  "dialect": "d1",
+  "published_at": "2026-10-01T07:07:53.689Z",
+  "expires_at": "2026-10-01T09:07:53.689Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T08:37:20.889Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01803",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T07:07:53.331Z",
+   "deadline": "2026-10-08T07:07:53.331Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-012115"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G12": 1
+  },
+  "notes": [
+   "G12 succeeded (started 2026-10-01T07:07:53.331Z): keep using"
+  ]
+ },
+ "flags": []
+}

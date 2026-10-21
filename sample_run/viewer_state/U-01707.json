@@ -1,0 +1,110 @@
+{
+ "viewer_id": "U-01707",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T17:11:04.591Z",
+  "deadline": "2026-10-08T17:11:04.591Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T1421"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "8b1b4164-2644-4246-bf7a-07f321c6ade9": "D-02613"
+ },
+ "handled_sessions": {
+  "a612a7f2-78ab-4f29-bd89-b7f5cb431bb0": "D-02613"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02613",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T17:11:04.961Z"
+  }
+ ],
+ "actions": [
+  "A-00906"
+ ],
+ "live_page": {
+  "action_id": "A-00906",
+  "dialect": "d6",
+  "published_at": "2026-10-01T17:11:04.951Z",
+  "expires_at": "2026-10-01T19:11:04.951Z",
+  "slugs": [
+   "badha-d6",
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "digu-d6",
+   "hani-pidi-d6",
+   "hari-guna-d6",
+   "jama-d6",
+   "kaka-d6",
+   "lojane-pijasa-d6",
+   "loyate-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "naka-d6",
+   "nasachu-dhapa-d6",
+   "piri-jama-d6",
+   "rako-pati-d6",
+   "riri-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "vasuka-dhanite-d6",
+   "yagi-dagi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:11:04.591Z",
+  "dialect": "d6"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01707",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T17:11:04.591Z",
+   "deadline": "2026-10-08T17:11:04.591Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G08": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G08 failed (started 2026-10-01T17:11:04.591Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

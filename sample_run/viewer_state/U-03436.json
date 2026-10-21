@@ -1,0 +1,38 @@
+{
+ "viewer_id": "U-03436",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "98add935-38ab-4a20-a3ed-7daa1b047263": "D-01065"
+ },
+ "handled_sessions": {
+  "6d06e0bd-55d7-4bd0-861d-4efd8b5fc395": "D-01065"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01065",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting None is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T08:29:39.099Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T08:29:39.069Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

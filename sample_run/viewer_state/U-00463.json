@@ -1,0 +1,92 @@
+{
+ "viewer_id": "U-00463",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T14:30:51.894Z",
+  "deadline": "2026-10-04T14:30:51.894Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "4162f850-c955-4175-a223-f3b37633abc3": "D-01921"
+ },
+ "handled_sessions": {
+  "cd3adba7-9936-48f3-b489-304233113d51": "D-01921"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01921",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T14:30:52.260Z"
+  }
+ ],
+ "actions": [
+  "A-00656"
+ ],
+ "live_page": {
+  "action_id": "A-00656",
+  "dialect": "d3",
+  "published_at": "2026-10-01T14:30:52.250Z",
+  "expires_at": "2026-10-01T16:30:52.250Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "ririgi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:30:51.894Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00463",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T14:30:51.894Z",
+   "deadline": "2026-10-04T14:30:51.894Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G02": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G02 failed (started 2026-10-01T14:30:51.894Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-02007",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T09:39:24.456Z",
+  "deadline": "2026-10-04T09:39:24.456Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "8a59c054-2204-4740-8840-53a29991dac9": "D-01218"
+ },
+ "handled_sessions": {
+  "f1bab04a-648f-4e6d-ba5e-fb094f232398": "D-01218"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01218",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T09:39:24.825Z"
+  }
+ ],
+ "actions": [
+  "A-00394"
+ ],
+ "live_page": {
+  "action_id": "A-00394",
+  "dialect": "d1",
+  "published_at": "2026-10-01T09:39:24.814Z",
+  "expires_at": "2026-10-01T11:39:24.814Z",
+  "slugs": [
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gima-bhadaba-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "rina-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T09:39:24.456Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02007",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T09:39:24.456Z",
+   "deadline": "2026-10-04T09:39:24.456Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G02": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G02 failed (started 2026-10-01T09:39:24.456Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

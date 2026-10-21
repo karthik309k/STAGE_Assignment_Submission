@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-03385",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T07:09:24.363Z",
+  "deadline": "2026-10-08T07:09:24.363Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "fcbd0578-6b25-40f4-ae4f-02ee26bbbf84": "D-00874"
+ },
+ "handled_sessions": {
+  "7c65255b-099f-4663-8c2c-11bb7c6e1c02": "D-00874"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00874",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T07:09:24.731Z"
+  }
+ ],
+ "actions": [
+  "A-00267"
+ ],
+ "live_page": {
+  "action_id": "A-00267",
+  "dialect": "d2",
+  "published_at": "2026-10-01T07:09:24.721Z",
+  "expires_at": "2026-10-01T09:09:24.721Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gidi-chudi-d2",
+   "guneba-guba-d2",
+   "molo-d2",
+   "neba-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T07:09:24.363Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03385",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T07:09:24.363Z",
+   "deadline": "2026-10-08T07:09:24.363Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T07:09:24.363Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

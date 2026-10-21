@@ -1,0 +1,112 @@
+{
+ "viewer_id": "U-04439",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T14:52:24.587Z",
+  "deadline": "2026-10-08T14:52:24.587Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T0426"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "a13099ea-6842-4144-b0ab-43585d509c7e": "D-01987"
+ },
+ "handled_sessions": {
+  "8dcd2bd4-cfac-4bdb-8744-e27fe2f2f72e": "D-01987"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01987",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T14:52:24.963Z"
+  }
+ ],
+ "actions": [
+  "A-00686"
+ ],
+ "live_page": {
+  "action_id": "A-00686",
+  "dialect": "d1",
+  "published_at": "2026-10-01T14:52:24.953Z",
+  "expires_at": "2026-10-01T16:52:24.953Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhada-bhate-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "koha-tena-d1",
+   "kopibha-niya-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nela-guja-d1",
+   "patena-d1",
+   "pipa-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raneya-niba-d1",
+   "rimo-koni-d1",
+   "rina-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "suhaja-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:52:24.587Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04439",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T14:52:24.587Z",
+   "deadline": "2026-10-08T14:52:24.587Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-027948"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G08": 1
+  },
+  "notes": [
+   "G08 succeeded (started 2026-10-01T14:52:24.587Z): keep using"
+  ]
+ },
+ "flags": []
+}

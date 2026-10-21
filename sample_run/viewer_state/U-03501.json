@@ -1,0 +1,132 @@
+{
+ "viewer_id": "U-03501",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T04:33:53.254Z",
+  "deadline": "2026-10-08T04:33:53.254Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T1421"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "dedd7d88-605c-4f1a-81fa-eaa7ee2f5ca4": "D-00339",
+  "b21b5c90-c735-40a7-9251-4d1c0e2cc2f1": "D-00795",
+  "1687397a-30d8-4a5a-a14e-8da9834e2d0e": "D-01460"
+ },
+ "handled_sessions": {
+  "725ba17a-1d48-4dff-afc3-7a99fa9e89b0": "D-00339",
+  "a02e220b-c4d6-473c-9134-000dd28e69a3": "D-00795",
+  "9ee05a67-2d82-41a2-b7cd-f56235a8075b": "D-01460"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00339",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T04:33:53.621Z"
+  },
+  {
+   "decision_id": "D-00795",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T06:27:50.449Z"
+  },
+  {
+   "decision_id": "D-01460",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T11:46:19.407Z"
+  }
+ ],
+ "actions": [
+  "A-00128",
+  "A-00220",
+  "A-00486"
+ ],
+ "live_page": {
+  "action_id": "A-00486",
+  "dialect": "d6",
+  "published_at": "2026-10-01T11:46:19.397Z",
+  "expires_at": "2026-10-01T13:46:19.397Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "digu-d6",
+   "gila-suha-d6",
+   "hari-d6",
+   "jama-d6",
+   "kaka-niyabha-d6",
+   "lojane-pijasa-d6",
+   "lona-telaba-d6",
+   "loyate-d6",
+   "momaka-logi-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "naka-d6",
+   "nasachu-dhapa-d6",
+   "nini-vagini-d6",
+   "piri-jama-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "vasuka-dhanite-d6",
+   "yagi-dagi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T11:46:19.337Z",
+  "dialect": "d6"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03501",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T04:33:53.254Z",
+   "deadline": "2026-10-08T04:33:53.254Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G08": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G08 failed (started 2026-10-01T04:33:53.254Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

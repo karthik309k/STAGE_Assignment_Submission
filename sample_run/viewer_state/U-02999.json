@@ -1,0 +1,31 @@
+{
+ "viewer_id": "U-02999",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {},
+ "handled_sessions": {},
+ "decisions": [],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": null,
+ "replans": [
+  {
+   "viewer_id": "U-02999",
+   "at": "2026-10-01T17:25:22.477Z",
+   "reason": "purchase_completed c69a64d3-596d-4a7f-ad4a-dabb6c52cc62",
+   "old_goal": null,
+   "new_goal": null,
+   "cancelled_actions": []
+  }
+ ],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

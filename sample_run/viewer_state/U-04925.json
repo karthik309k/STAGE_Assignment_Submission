@@ -1,0 +1,109 @@
+{
+ "viewer_id": "U-04925",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T16:58:49.772Z",
+  "deadline": "2026-10-04T16:58:49.772Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "yane-tegi-d3",
+   "title_id": "T0903",
+   "next_ep": "yane-tegi-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "9c7e7a87-7a9f-4c22-8517-d89fec05a68e": "D-00429",
+  "76c82650-f936-4e03-9417-46e8c587d6c6": "D-02573"
+ },
+ "handled_sessions": {
+  "14c8821e-dd67-4a7d-9d8f-0a3a309e540d": "D-02573"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00429",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 173378s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:45:50.285Z"
+  },
+  {
+   "decision_id": "D-02573",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:58:50.140Z"
+  }
+ ],
+ "actions": [
+  "A-00893"
+ ],
+ "live_page": {
+  "action_id": "A-00893",
+  "dialect": "d3",
+  "published_at": "2026-10-01T16:58:50.129Z",
+  "expires_at": "2026-10-01T18:58:50.129Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:58:49.772Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04925",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T16:58:49.772Z",
+   "deadline": "2026-10-04T16:58:49.772Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T16:58:49.772Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-00495",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "ab05dd64-67aa-4dc7-9e39-5d5282cf93c7": "D-00564",
+  "4037f9bf-8bac-45d2-9e76-b93895be7185": "D-02012"
+ },
+ "handled_sessions": {
+  "7ae88d93-d7d9-4161-876f-9ca481b356c1": "D-02012"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00564",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 13944s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:47:42.347Z"
+  },
+  {
+   "decision_id": "D-02012",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no eligible measurable goal with supporting evidence: G01: not signed up within 7 days (or signup unknown); G02: cannot prove 'never completed an episode' without the viewer's full history; G03: not signed up within 2 days (or signup unknown); G04: subscription_status=lapsed, not trial_active",
+   "published_at": "2026-10-01T14:59:26.529Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:59:26.199Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

@@ -1,0 +1,94 @@
+{
+ "viewer_id": "U-00133",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T06:11:11.196Z",
+  "deadline": "2026-10-04T06:11:11.196Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "601dfb7f-7479-42ee-a92b-9992f136e302": "D-00762"
+ },
+ "handled_sessions": {
+  "30e89b38-562b-48cd-bb15-d0e32267b3bf": "D-00762"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00762",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T06:11:11.562Z"
+  }
+ ],
+ "actions": [
+  "A-00202"
+ ],
+ "live_page": {
+  "action_id": "A-00202",
+  "dialect": "d3",
+  "published_at": "2026-10-01T06:11:11.552Z",
+  "expires_at": "2026-10-01T08:11:11.552Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "ririgi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T06:11:11.196Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00133",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T06:11:11.196Z",
+   "deadline": "2026-10-04T06:11:11.196Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-000837"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G02": 1
+  },
+  "notes": [
+   "G02 succeeded (started 2026-10-01T06:11:11.196Z): keep using"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,129 @@
+{
+ "viewer_id": "U-03180",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T16:07:15.343Z",
+  "deadline": "2026-10-04T16:07:15.343Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "yane-tegi-d3",
+   "title_id": "T0903",
+   "next_ep": "yane-tegi-d3-s1e4",
+   "next_ep_no": 4
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "a7dd2115-5ba3-4b4d-8845-a4d3054184d4": "D-01119",
+  "3e37c593-ac2f-468e-8f71-bb5563b7711a": "D-02388",
+  "269eb6c5-878c-4285-a4ef-af61c294ffd7": "D-02406",
+  "45833c77-a9ba-4c95-9989-bb34a4e5e479": "D-02492"
+ },
+ "handled_sessions": {
+  "1458a0dd-6a5a-4b26-9d56-fca681820eec": "D-02388",
+  "3b6da4ed-ef27-4eec-9022-ef0099af5696": "D-02406",
+  "9e4bc776-dad9-4d44-9fee-6dc1a3d964b1": "D-02492"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01119",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 742533s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T08:59:19.310Z"
+  },
+  {
+   "decision_id": "D-02388",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:07:15.711Z"
+  },
+  {
+   "decision_id": "D-02406",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:07:15.701Z (A-00834); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:11:05.960Z"
+  },
+  {
+   "decision_id": "D-02492",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:07:15.701Z (A-00834); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:35:59.763Z"
+  }
+ ],
+ "actions": [
+  "A-00834"
+ ],
+ "live_page": {
+  "action_id": "A-00834",
+  "dialect": "d3",
+  "published_at": "2026-10-01T16:07:15.701Z",
+  "expires_at": "2026-10-01T18:07:15.701Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:35:59.733Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03180",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T16:07:15.343Z",
+   "deadline": "2026-10-04T16:07:15.343Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T16:07:15.343Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

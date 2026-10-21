@@ -1,0 +1,165 @@
+{
+ "viewer_id": "U-04685",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G09",
+  "name": "weekly_habit_14d",
+  "started_at": "2026-10-01T03:23:36.817Z",
+  "deadline": "2026-10-15T03:23:36.817Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "on 3 distinct IST days",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'rarely watches' = plays on <= 1 IST day in 14 days, account older than 14 days"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "39ffec5f-3b42-4047-8592-17db6e4b76e5": "D-00230",
+  "5273a7ba-6abf-4457-a5e7-f17cfbd04d4f": "D-00318",
+  "655fb46f-ff29-4f9a-866c-10b04b6f70e7": "D-00319",
+  "a790d32f-8f09-481e-bf77-c611fac64b25": "D-00596",
+  "35bd91bc-c157-46c5-811a-ba03386813fd": "D-01027",
+  "f18ed75c-911c-46de-9546-86459b963555": "D-01808"
+ },
+ "handled_sessions": {
+  "7d260b5e-b296-444e-af07-134c3ae30151": "D-00230",
+  "47ee18ce-7f9c-402d-a16b-b50d7d46672a": "D-00596",
+  "7e6a9d2e-f0e2-4c0d-827f-520a32f37213": "D-01027",
+  "ba2a4a68-0020-4494-808d-9e04c0b0f511": "D-01808"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00230",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T03:23:37.184Z"
+  },
+  {
+   "decision_id": "D-00318",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 32290s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:21:42.018Z"
+  },
+  {
+   "decision_id": "D-00319",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 32290s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:21:47.024Z"
+  },
+  {
+   "decision_id": "D-00596",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T04:56:28.115Z"
+  },
+  {
+   "decision_id": "D-01027",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T08:15:29.985Z"
+  },
+  {
+   "decision_id": "D-01808",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T14:00:57.823Z"
+  }
+ ],
+ "actions": [
+  "A-00087",
+  "A-00143",
+  "A-00325",
+  "A-00604"
+ ],
+ "live_page": {
+  "action_id": "A-00604",
+  "dialect": "d2",
+  "published_at": "2026-10-01T14:00:57.813Z",
+  "expires_at": "2026-10-01T16:00:57.813Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "maya-d2",
+   "molo-d2",
+   "mopi-vasuva-d2",
+   "neba-d2",
+   "neya-kadhana-d2",
+   "nipi-maniba-d2",
+   "pichu-konani-d2",
+   "pirima-d2",
+   "rigu-dhadi-d2",
+   "ritisa-guti-d2",
+   "riya-d2",
+   "sadha-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:00:57.753Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04685",
+   "arm": "agent",
+   "goal_id": "G09",
+   "started_at": "2026-10-01T03:23:36.817Z",
+   "deadline": "2026-10-15T03:23:36.817Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-029324",
+    "event:oua-029329",
+    "event:oua-029334"
+   ],
+   "detail": "3 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G09": 1
+  },
+  "notes": [
+   "G09 succeeded (started 2026-10-01T03:23:36.817Z): keep using"
+  ]
+ },
+ "flags": []
+}

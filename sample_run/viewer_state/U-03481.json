@@ -1,0 +1,109 @@
+{
+ "viewer_id": "U-03481",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G01",
+  "name": "first_play_24h",
+  "started_at": "2026-10-01T13:14:10.376Z",
+  "deadline": "2026-10-02T13:14:10.376Z",
+  "window_hours": 24,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 24
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack (signup is inside the event window)"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "7afe9e61-024b-4fe6-8c47-4ca29addd5c4": "D-01667",
+  "2e1856f8-d11a-4cec-ab01-de5df08f9723": "D-01669"
+ },
+ "handled_sessions": {
+  "1426fe28-8fa1-4277-8a00-6f52370c63da": "D-01667"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01667",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null,
+   "published_at": "2026-10-01T13:14:12.061Z"
+  },
+  {
+   "decision_id": "D-01669",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01667",
+   "published_at": "2026-10-01T13:14:13.639Z"
+  }
+ ],
+ "actions": [
+  "A-00558"
+ ],
+ "live_page": {
+  "action_id": "A-00558",
+  "dialect": "d1",
+  "published_at": "2026-10-01T13:14:12.051Z",
+  "expires_at": "2026-10-01T15:14:12.051Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T13:14:13.629Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03481",
+   "arm": "agent",
+   "goal_id": "G01",
+   "started_at": "2026-10-01T13:14:10.376Z",
+   "deadline": "2026-10-02T13:14:10.376Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-022009"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G01": 1
+  },
+  "notes": [
+   "G01 succeeded (started 2026-10-01T13:14:10.376Z): keep using"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,133 @@
+{
+ "viewer_id": "U-03548",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:07:33.714Z",
+  "deadline": "2026-10-04T05:07:33.714Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bhaja-moguba-d2",
+   "title_id": "T0524",
+   "next_ep": "bhaja-moguba-d2-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "3c051448-9185-4ef7-bfdc-3b628f1ca97f": "D-00496",
+  "4d87eb9b-7738-4da9-9c76-fccd67848be2": "D-00626",
+  "d1b3d203-d5a8-443c-abc6-4c39df501a12": "D-00627"
+ },
+ "handled_sessions": {
+  "a4132c70-7c7e-4b82-b473-cf3a8ce979f6": "D-00626"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00496",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 25142s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:46:45.747Z"
+  },
+  {
+   "decision_id": "D-00626",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:07:34.084Z"
+  },
+  {
+   "decision_id": "D-00627",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00626",
+   "published_at": "2026-10-01T05:07:37.133Z"
+  }
+ ],
+ "actions": [
+  "A-00155"
+ ],
+ "live_page": {
+  "action_id": "A-00155",
+  "dialect": "d2",
+  "published_at": "2026-10-01T05:07:34.073Z",
+  "expires_at": "2026-10-01T07:07:34.073Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bala-naja-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "gisachu-techu-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "hako-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "molo-d2",
+   "neba-d2",
+   "nesa-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "sadha-d2",
+   "teja-koriri-d2",
+   "tela-sagi-d2",
+   "tero-koja-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T05:07:37.123Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03548",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:07:33.714Z",
+   "deadline": "2026-10-04T05:07:33.714Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:07:33.714Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

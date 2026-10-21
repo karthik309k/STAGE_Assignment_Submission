@@ -1,0 +1,137 @@
+{
+ "viewer_id": "U-04103",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T03:53:46.884Z",
+  "deadline": "2026-10-04T03:53:46.884Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "kova-sako-d5",
+   "title_id": "T1180",
+   "next_ep": "kova-sako-d5-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "40d037bc-4e1e-45ea-9d62-b29d11a21409": "D-00283",
+  "ab85a227-c8cf-46a8-8de6-246a69b9cc8b": "D-01246",
+  "01f35ae8-cc8e-4ea2-84d6-fdf46a17af8f": "D-01966"
+ },
+ "handled_sessions": {
+  "f764629d-ba5d-491e-a6fc-264745d735a4": "D-00283",
+  "facba5d7-43de-4929-9dc4-57e15637c1a3": "D-01246",
+  "804f30c8-4c13-4bc1-bdbb-b677d11d0869": "D-01966"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00283",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T03:53:47.252Z"
+  },
+  {
+   "decision_id": "D-01246",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T09:56:33.423Z"
+  },
+  {
+   "decision_id": "D-01966",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T14:45:41.824Z"
+  }
+ ],
+ "actions": [
+  "A-00109",
+  "A-00402",
+  "A-00672"
+ ],
+ "live_page": {
+  "action_id": "A-00672",
+  "dialect": "d5",
+  "published_at": "2026-10-01T14:45:41.814Z",
+  "expires_at": "2026-10-01T16:45:41.814Z",
+  "slugs": [
+   "bhasu-gula-d5",
+   "dhanate-d5",
+   "dika-chuha-d5",
+   "diti-kochu-d5",
+   "gubava-gihaya-d5",
+   "guko-lorina-d5",
+   "hapi-niri-d5",
+   "haya-kani-d5",
+   "jamo-hasa-d5",
+   "kane-kopa-d5",
+   "kavadha-rilo-d5",
+   "kova-sako-d5",
+   "lodi-d5",
+   "mori-neka-d5",
+   "nigi-risa-d5",
+   "nimo-tima-d5",
+   "nina-d5",
+   "pana-mobako-d5",
+   "pibha-tibalo-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "sulo-tigiti-d5",
+   "tebaja-gilo-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "yaka-naka-d5",
+   "yava-teka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:45:41.756Z",
+  "dialect": "d5"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04103",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T03:53:46.884Z",
+   "deadline": "2026-10-04T03:53:46.884Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T03:53:46.884Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,160 @@
+{
+ "viewer_id": "U-04503",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T02:03:52.589Z",
+  "deadline": "2026-10-08T02:03:52.589Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "369d70f5-6a2b-4b4e-b35e-82f99b9e741d": "D-00145",
+  "0af7abba-83f5-4f0a-b85f-6c4d81a74a91": "D-00160",
+  "a16ad6d8-9146-4a0b-a499-3fefa0fbc3ec": "D-01422",
+  "4ba784d3-8e6e-4cb2-a35e-c383e412a7bc": "D-01504",
+  "5050a44b-0d2e-464b-9280-f7d978f98746": "D-01982"
+ },
+ "handled_sessions": {
+  "1c5da3fa-0d4a-4ff9-bdb0-9622ebd3c403": "D-00145",
+  "ec114ad5-ed1e-461b-9ef8-b2f20e78bc47": "D-00160",
+  "4b5b00bf-9de8-4b8c-98a8-b9a2a6c48e0c": "D-01422",
+  "a4f4ff59-34b5-4969-951b-77c000ca498c": "D-01504",
+  "205eae02-9513-47ff-af25-e425b835dd5a": "D-01982"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00145",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T02:03:52.958Z"
+  },
+  {
+   "decision_id": "D-00160",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T04:03:52.948Z (A-00058); no_message: goal G05 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T02:25:44.550Z"
+  },
+  {
+   "decision_id": "D-01422",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T11:29:33.762Z"
+  },
+  {
+   "decision_id": "D-01433",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T11:35:03.415Z"
+  },
+  {
+   "decision_id": "D-01504",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T13:29:33.752Z (A-00471); no_message: goal G05 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T11:58:12.238Z"
+  },
+  {
+   "decision_id": "D-01982",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T14:50:18.908Z"
+  }
+ ],
+ "actions": [
+  "A-00058",
+  "A-00471",
+  "A-00681"
+ ],
+ "live_page": {
+  "action_id": "A-00681",
+  "dialect": "d1",
+  "published_at": "2026-10-01T14:50:18.898Z",
+  "expires_at": "2026-10-01T16:50:18.898Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhateha-d1",
+   "dhati-tiniha-d1",
+   "dikagi-giti-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "koha-tena-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "pipa-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raloja-d1",
+   "raneya-niba-d1",
+   "rimo-koni-d1",
+   "rina-d1",
+   "salosa-valo-d1",
+   "suhaja-d1",
+   "tejari-bhaguri-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1",
+   "yalabha-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:50:18.839Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04503",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T02:03:52.589Z",
+   "deadline": "2026-10-08T02:03:52.589Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T02:03:52.589Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

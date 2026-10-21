@@ -1,0 +1,38 @@
+{
+ "viewer_id": "U-01982",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "720eb91a-b975-4f4b-a7c9-251186b2c1e3": "D-01521"
+ },
+ "handled_sessions": {
+  "431ebefa-7707-46a9-a507-34bf8307a300": "D-01521"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01521",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no eligible measurable goal with supporting evidence: G01: not signed up within 7 days (or signup unknown); G02: cannot prove 'never completed an episode' without the viewer's full history; G03: not signed up within 2 days (or signup unknown); G04: subscription_status=lapsed, not trial_active",
+   "published_at": "2026-10-01T12:04:30.801Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T12:04:30.471Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

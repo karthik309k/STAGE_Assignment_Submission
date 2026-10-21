@@ -1,0 +1,137 @@
+{
+ "viewer_id": "U-02202",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T07:16:22.047Z",
+  "deadline": "2026-10-08T07:16:22.047Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "d23dd00f-0fcb-4d2a-b3e1-73339a74838e": "D-00892",
+  "b31264ca-9707-4a45-b5de-9c8887ac0b6a": "D-00986",
+  "8e1492b3-f951-4f5d-90ca-2234c8918772": "D-01978",
+  "75baa045-197c-43a0-a091-d6d19fca8dd1": "D-02518"
+ },
+ "handled_sessions": {
+  "9239236a-6dc7-4bb7-83db-258e1428a9b2": "D-00892",
+  "08e1e66c-7524-4d64-8e41-84125c440ea7": "D-01978",
+  "f3c30beb-268f-47ed-b32e-3bcc90df0d21": "D-02518"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00892",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T07:16:22.415Z"
+  },
+  {
+   "decision_id": "D-00986",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 2540s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T07:55:02.829Z"
+  },
+  {
+   "decision_id": "D-01978",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T14:48:33.135Z"
+  },
+  {
+   "decision_id": "D-02518",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T16:43:03.759Z"
+  },
+  {
+   "decision_id": "D-02519",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T16:43:20.473Z"
+  }
+ ],
+ "actions": [
+  "A-00278",
+  "A-00678",
+  "A-00872"
+ ],
+ "live_page": {
+  "action_id": "A-00872",
+  "dialect": "d1",
+  "published_at": "2026-10-01T16:43:03.749Z",
+  "expires_at": "2026-10-01T18:43:03.749Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:43:20.463Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02202",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T07:16:22.047Z",
+   "deadline": "2026-10-08T07:16:22.047Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T07:16:22.047Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

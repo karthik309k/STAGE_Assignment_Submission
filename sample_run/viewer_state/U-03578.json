@@ -1,0 +1,104 @@
+{
+ "viewer_id": "U-03578",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T17:06:59.190Z",
+  "deadline": "2026-10-08T17:06:59.190Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "3951ea9e-c2ac-4ea5-9dee-8b2aea0faaa0": "D-02600",
+  "5890b909-4dcc-4f73-87f4-1943f97c8b6b": "D-02660"
+ },
+ "handled_sessions": {
+  "34a9adf4-d92c-4763-ad05-ee787a5bb121": "D-02600",
+  "9011b7a3-8904-4913-ab3f-d22e7c00755a": "D-02660"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02600",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T17:06:59.557Z"
+  },
+  {
+   "decision_id": "D-02660",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T19:06:59.547Z (A-00901); no_message: goal G05 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T17:27:38.917Z"
+  }
+ ],
+ "actions": [
+  "A-00901"
+ ],
+ "live_page": {
+  "action_id": "A-00901",
+  "dialect": "d3",
+  "published_at": "2026-10-01T17:06:59.547Z",
+  "expires_at": "2026-10-01T19:06:59.547Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:27:38.887Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03578",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T17:06:59.190Z",
+   "deadline": "2026-10-08T17:06:59.190Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-022637"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G05": 1
+  },
+  "notes": [
+   "G05 succeeded (started 2026-10-01T17:06:59.190Z): keep using"
+  ]
+ },
+ "flags": []
+}

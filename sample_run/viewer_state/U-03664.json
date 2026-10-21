@@ -1,0 +1,129 @@
+{
+ "viewer_id": "U-03664",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T12:22:52.439Z",
+  "deadline": "2026-10-08T12:22:52.439Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T0426"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "19edb93c-af28-4bfe-84e4-5d06678d9a28": "D-01560",
+  "b8fd378f-c4a0-4b6e-b3ee-ac81cb34f240": "D-02224",
+  "4d1ae936-ade4-4f07-bbd6-127cebc86321": "D-02225"
+ },
+ "handled_sessions": {
+  "bd168986-8674-4f36-9493-8a21a1603b2f": "D-01560",
+  "d700517f-8a23-48d0-942a-a655ade79f1a": "D-02224"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01560",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T12:22:52.815Z"
+  },
+  {
+   "decision_id": "D-02224",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting None is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T15:19:44.950Z"
+  },
+  {
+   "decision_id": "D-02225",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-02224",
+   "published_at": "2026-10-01T15:19:48.396Z"
+  }
+ ],
+ "actions": [
+  "A-00522"
+ ],
+ "live_page": {
+  "action_id": "A-00522",
+  "dialect": "d1",
+  "published_at": "2026-10-01T12:22:52.805Z",
+  "expires_at": "2026-10-01T14:22:52.805Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhateha-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "koha-tena-d1",
+   "kopibha-niya-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nela-guja-d1",
+   "patena-d1",
+   "pipa-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raneya-niba-d1",
+   "rimo-koni-d1",
+   "rina-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "suhaja-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:19:48.386Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03664",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T12:22:52.439Z",
+   "deadline": "2026-10-08T12:22:52.439Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G08": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G08 failed (started 2026-10-01T12:22:52.439Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,92 @@
+{
+ "viewer_id": "U-02558",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G01",
+  "name": "first_play_24h",
+  "started_at": "2026-10-01T07:49:31.250Z",
+  "deadline": "2026-10-02T07:49:31.250Z",
+  "window_hours": 24,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 24
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack (signup is inside the event window)"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "c4c1ce11-5451-46c5-bdb7-817134a52804": "D-00974"
+ },
+ "handled_sessions": {
+  "576055f7-15ac-4cee-bab0-2b72b889c5d3": "D-00974"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00974",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null,
+   "published_at": "2026-10-01T07:49:31.616Z"
+  }
+ ],
+ "actions": [
+  "A-00307"
+ ],
+ "live_page": {
+  "action_id": "A-00307",
+  "dialect": "d3",
+  "published_at": "2026-10-01T07:49:31.606Z",
+  "expires_at": "2026-10-01T09:49:31.606Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T07:49:31.250Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02558",
+   "arm": "agent",
+   "goal_id": "G01",
+   "started_at": "2026-10-01T07:49:31.250Z",
+   "deadline": "2026-10-02T07:49:31.250Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G01": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G01 failed (started 2026-10-01T07:49:31.250Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

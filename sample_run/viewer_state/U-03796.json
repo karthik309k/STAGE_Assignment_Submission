@@ -1,0 +1,126 @@
+{
+ "viewer_id": "U-03796",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T04:47:55.086Z",
+  "deadline": "2026-10-04T04:47:55.086Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "lola-rodira-d2",
+   "title_id": "T0569",
+   "next_ep": "lola-rodira-d2-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "06c96bf4-8724-422a-9154-a6830be9163d": "D-00580",
+  "33328c60-188d-48ed-b07d-f6f81587419b": "D-01394"
+ },
+ "handled_sessions": {
+  "f2aad53d-5864-42f6-8d9b-7970ebbc2f6c": "D-00580",
+  "ce892cac-78bf-419b-9e56-33eb5f725452": "D-01394"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00580",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T04:47:55.458Z"
+  },
+  {
+   "decision_id": "D-01394",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T11:09:56.991Z"
+  }
+ ],
+ "actions": [
+  "A-00139",
+  "A-00463"
+ ],
+ "live_page": {
+  "action_id": "A-00463",
+  "dialect": "d2",
+  "published_at": "2026-10-01T11:09:56.981Z",
+  "expires_at": "2026-10-01T13:09:56.981Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bala-naja-d2",
+   "bhaja-moguba-d2",
+   "bhariya-d2",
+   "chugu-d2",
+   "dani-jachuma-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "gisu-d2",
+   "guchu-riyada-d2",
+   "guneba-guba-d2",
+   "lola-rodira-d2",
+   "maya-d2",
+   "neba-d2",
+   "nipi-maniba-d2",
+   "pala-nedipi-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "tela-sagi-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T11:09:56.920Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03796",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T04:47:55.086Z",
+   "deadline": "2026-10-04T04:47:55.086Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T04:47:55.086Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

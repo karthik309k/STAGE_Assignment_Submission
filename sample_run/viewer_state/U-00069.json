@@ -1,0 +1,100 @@
+{
+ "viewer_id": "U-00069",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T15:03:43.908Z",
+  "deadline": "2026-10-08T15:03:43.908Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "81a3660c-3231-4e46-b288-55b8ae206a9c": "D-02078"
+ },
+ "handled_sessions": {
+  "45bc20ab-151a-4c82-8ea8-274d6ade7b07": "D-02078"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02078",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T15:03:44.275Z"
+  }
+ ],
+ "actions": [
+  "A-00722"
+ ],
+ "live_page": {
+  "action_id": "A-00722",
+  "dialect": "d5",
+  "published_at": "2026-10-01T15:03:44.265Z",
+  "expires_at": "2026-10-01T17:03:44.265Z",
+  "slugs": [
+   "dhanate-d5",
+   "diti-kochu-d5",
+   "gubava-gihaya-d5",
+   "jamo-hasa-d5",
+   "kane-kopa-d5",
+   "kova-sako-d5",
+   "mori-neka-d5",
+   "nigi-risa-d5",
+   "nina-d5",
+   "pana-mobako-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "yaka-naka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:03:43.908Z",
+  "dialect": "d5"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00069",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T15:03:43.908Z",
+   "deadline": "2026-10-08T15:03:43.908Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-000475"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G12": 1
+  },
+  "notes": [
+   "G12 succeeded (started 2026-10-01T15:03:43.908Z): keep using"
+  ]
+ },
+ "flags": []
+}

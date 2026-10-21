@@ -1,0 +1,133 @@
+{
+ "viewer_id": "U-04856",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T13:40:09.883Z",
+  "deadline": "2026-10-04T13:40:09.883Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "rasuya-moni-d6",
+   "title_id": "T1976",
+   "next_ep": "rasuya-moni-d6-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "26149df4-ff5a-4295-9c8c-9b10e52fc964": "D-01735",
+  "38c403f6-f7db-4f02-a19f-654a5869a44c": "D-01806"
+ },
+ "handled_sessions": {
+  "5a47e82c-3db5-41ef-80a6-dc042366f57f": "D-01735",
+  "5cc50b78-7ce4-48d4-a29f-946036da101c": "D-01806"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01735",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T13:40:10.250Z"
+  },
+  {
+   "decision_id": "D-01806",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T15:40:10.240Z (A-00585); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T14:00:16.919Z"
+  },
+  {
+   "decision_id": "D-01807",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T14:00:18.307Z"
+  }
+ ],
+ "actions": [
+  "A-00585"
+ ],
+ "live_page": {
+  "action_id": "A-00585",
+  "dialect": "d6",
+  "published_at": "2026-10-01T13:40:10.240Z",
+  "expires_at": "2026-10-01T15:40:10.240Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "digu-d6",
+   "kaka-d6",
+   "kapa-lone-d6",
+   "lachu-gira-d6",
+   "lojane-pijasa-d6",
+   "losubha-rima-d6",
+   "loyate-d6",
+   "mana-nati-d6",
+   "momaka-logi-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "naka-d6",
+   "napa-jara-d6",
+   "pivari-lava-d6",
+   "rasuya-moni-d6",
+   "riri-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "yagi-dagi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:00:18.297Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04856",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T13:40:09.883Z",
+   "deadline": "2026-10-04T13:40:09.883Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T13:40:09.883Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

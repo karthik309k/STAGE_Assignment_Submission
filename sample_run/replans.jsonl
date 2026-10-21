@@ -1,0 +1,47 @@
+{"viewer_id": "U-04744", "at": "2026-10-01T03:36:18.443Z", "reason": "purchase_completed 21a3f103-af54-4e56-b5c3-13c0ade51fc4", "old_goal": "G07", "new_goal": "G07", "cancelled_actions": []}
+{"viewer_id": "U-00343", "at": "2026-10-01T03:58:44.267Z", "reason": "purchase_completed 78b21df5-83a0-4c19-a2fa-48b0f5af3ccc", "old_goal": "G07", "new_goal": "G07", "cancelled_actions": []}
+{"viewer_id": "U-01200", "at": "2026-10-01T05:13:08.794Z", "reason": "purchase_completed 3eaa17f3-cf5d-4219-b6ef-cf5ef0f11b42", "old_goal": "G07", "new_goal": "G07", "cancelled_actions": []}
+{"viewer_id": "U-04460", "at": "2026-10-01T05:42:54.597Z", "reason": "purchase_completed c9925b9d-0cb0-4093-9585-6109b95b3f10", "old_goal": null, "new_goal": "G07", "cancelled_actions": []}
+{"viewer_id": "U-01068", "at": "2026-10-01T05:47:15.141Z", "reason": "purchase_completed f71c1910-dce3-435a-bb9f-9d1c9cf4b4bf", "old_goal": "G05", "new_goal": "G09", "cancelled_actions": []}
+{"viewer_id": "U-00045", "at": "2026-10-01T06:33:58.504Z", "reason": "purchase_completed 173fc778-f125-43fa-a3c7-1e4fa9115893", "old_goal": "G06", "new_goal": "G07", "cancelled_actions": ["A-00227"]}
+{"viewer_id": "U-00050", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-00329", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-00347", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-00647", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-00781", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00247"}
+{"viewer_id": "U-00917", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00248"}
+{"viewer_id": "U-00930", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-01309", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00249"}
+{"viewer_id": "U-01483", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-01487", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00250"}
+{"viewer_id": "U-01632", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-01766", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-01840", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-01929", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00251"}
+{"viewer_id": "U-02044", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00252"}
+{"viewer_id": "U-02257", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-02286", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-02466", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-02535", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00253"}
+{"viewer_id": "U-02653", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-02825", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-03017", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-03057", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-03254", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-03639", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00254"}
+{"viewer_id": "U-03645", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": ["A-00213"], "replacement_page": "A-00255"}
+{"viewer_id": "U-03803", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-03828", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-04094", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-04429", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00256"}
+{"viewer_id": "U-04533", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-04720", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": null}
+{"viewer_id": "U-04814", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00257"}
+{"viewer_id": "U-04907", "at": "2026-10-01T07:00:00.000Z", "reason": "title withdrawn (rava-baya-d1)", "old_goal": null, "new_goal": null, "cancelled_actions": [], "replacement_page": "A-00258"}
+{"viewer_id": "U-00649", "at": "2026-10-01T07:37:32.152Z", "reason": "purchase_completed 9b6c3196-4d3b-45cf-8378-78dd0899a0f1", "old_goal": "G05", "new_goal": "G08", "cancelled_actions": []}
+{"viewer_id": "U-02656", "at": "2026-10-01T08:13:40.026Z", "reason": "purchase_completed 13c98f16-8cb5-44fa-aa71-656d9cb739f6", "old_goal": "G05", "new_goal": "G09", "cancelled_actions": []}
+{"viewer_id": "U-02654", "at": "2026-10-01T08:45:13.367Z", "reason": "purchase_completed 3d6ba9b3-c9c7-474a-b14d-550c6ce61abf", "old_goal": null, "new_goal": null, "cancelled_actions": []}
+{"viewer_id": "U-01429", "at": "2026-10-01T09:25:54.987Z", "reason": "purchase_completed 6a24e107-1cf3-4360-901d-2038e0f2b3d7", "old_goal": "G07", "new_goal": "G07", "cancelled_actions": []}
+{"viewer_id": "U-01775", "at": "2026-10-01T10:36:57.707Z", "reason": "purchase_completed 9aa7864f-3f2d-4caa-95a6-88ce0e1f203e", "old_goal": "G06", "new_goal": "G08", "cancelled_actions": ["A-00428"]}
+{"viewer_id": "U-03356", "at": "2026-10-01T10:47:08.587Z", "reason": "purchase_completed 536b67ae-0686-4c52-bfe5-b833b8897883", "old_goal": null, "new_goal": "G09", "cancelled_actions": []}
+{"viewer_id": "U-02999", "at": "2026-10-01T17:25:22.477Z", "reason": "purchase_completed c69a64d3-596d-4a7f-ad4a-dabb6c52cc62", "old_goal": null, "new_goal": null, "cancelled_actions": []}

@@ -1,0 +1,148 @@
+{
+ "viewer_id": "U-00908",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T04:42:19.702Z",
+  "deadline": "2026-10-04T04:42:19.702Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "tiya-bhamaro-d1",
+   "title_id": "T0007",
+   "next_ep": "tiya-bhamaro-d1-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "f59b7416-a051-4333-86c8-57d712829bad": "D-00357",
+  "7674348d-e093-40ed-ba50-80222b7fd3d5": "D-01261",
+  "46a069ed-4cb7-446e-b983-1956611d432b": "D-01611",
+  "5d8422af-279d-439f-b666-59b844978d81": "D-02394"
+ },
+ "handled_sessions": {
+  "2aa3e21d-1ea8-4f64-b110-d6757dfd37d6": "D-00357",
+  "04264cd6-b4a9-40be-bc93-988cd6c5789e": "D-01261",
+  "c08a3cb2-4838-4451-bfe1-e4c871860b31": "D-01611",
+  "68381a6c-5df2-4503-a849-96705d12d870": "D-02394"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00357",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T04:42:20.071Z"
+  },
+  {
+   "decision_id": "D-01261",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T10:06:17.469Z"
+  },
+  {
+   "decision_id": "D-01611",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T12:48:09.119Z"
+  },
+  {
+   "decision_id": "D-02394",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:08:14.436Z"
+  }
+ ],
+ "actions": [
+  "A-00137",
+  "A-00407",
+  "A-00541",
+  "A-00835"
+ ],
+ "live_page": {
+  "action_id": "A-00835",
+  "dialect": "d1",
+  "published_at": "2026-10-01T16:08:14.426Z",
+  "expires_at": "2026-10-01T18:08:14.426Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhalo-gumo-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "gini-dhachu-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "jasuja-d1",
+   "kopibha-niya-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "patena-d1",
+   "pipaka-suni-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raloja-d1",
+   "rimo-koni-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1",
+   "yakani-panine-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:08:14.365Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00908",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T04:42:19.702Z",
+   "deadline": "2026-10-04T04:42:19.702Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T04:42:19.702Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

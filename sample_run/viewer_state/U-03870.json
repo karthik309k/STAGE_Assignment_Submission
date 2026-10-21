@@ -1,0 +1,125 @@
+{
+ "viewer_id": "U-03870",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T07:27:41.218Z",
+  "deadline": "2026-10-04T07:27:41.218Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "gubava-gihaya-d5",
+   "title_id": "T1177",
+   "next_ep": "gubava-gihaya-d5-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "fd8d9231-1dcc-4325-b106-c52554b4457a": "D-00919",
+  "83b44008-12aa-4475-87b9-132f059adc0c": "D-01225"
+ },
+ "handled_sessions": {
+  "d7f07b04-6d0c-4329-96c2-f0e19a3384e0": "D-00919",
+  "d4025ac8-3c18-4460-9a94-c7b0a5b56053": "D-01225"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00919",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T07:27:41.587Z"
+  },
+  {
+   "decision_id": "D-01225",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'NA' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T09:42:34.048Z"
+  }
+ ],
+ "actions": [
+  "A-00285"
+ ],
+ "live_page": {
+  "action_id": "A-00285",
+  "dialect": "d5",
+  "published_at": "2026-10-01T07:27:41.577Z",
+  "expires_at": "2026-10-01T09:27:41.577Z",
+  "slugs": [
+   "baha-d5",
+   "bhasu-gula-d5",
+   "dhanate-d5",
+   "diti-kochu-d5",
+   "gubava-gihaya-d5",
+   "guko-lorina-d5",
+   "hapi-niri-d5",
+   "haya-kani-d5",
+   "kane-kopa-d5",
+   "kova-sako-d5",
+   "labha-pako-d5",
+   "mone-d5",
+   "mori-neka-d5",
+   "nechu-guchu-d5",
+   "nigi-risa-d5",
+   "nimo-tima-d5",
+   "nina-d5",
+   "pana-mobako-d5",
+   "pibha-tibalo-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "subhaba-nigi-d5",
+   "sulo-tigiti-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "yaka-naka-d5",
+   "yava-teka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T09:42:34.018Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03870",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T07:27:41.218Z",
+   "deadline": "2026-10-04T07:27:41.218Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T07:27:41.218Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,156 @@
+{
+ "viewer_id": "U-01668",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T02:34:13.703Z",
+  "deadline": "2026-10-04T02:34:13.703Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "dhapipa-gini-d2",
+   "title_id": "T0523",
+   "next_ep": "dhapipa-gini-d2-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "24a8f910-4a8f-487e-a27a-07c94bd6e0a4": "D-00167",
+  "28cc66a3-b447-4379-968a-06461824e08f": "D-02404",
+  "7fd682e5-ce55-4b6d-a5db-eec57618cd70": "D-02419",
+  "8c6e8d0a-f59a-4bb2-b07b-2930d5336ee4": "D-02437",
+  "74922985-8ec3-4a55-8f0a-92f748fa619c": "D-02661"
+ },
+ "handled_sessions": {
+  "2adaa71e-730d-4409-9181-348ed87edf77": "D-00167",
+  "c8c3de3c-c72d-4b72-a2be-5f0fcfc5a511": "D-02404",
+  "e12bc8b7-7338-4533-b552-761718d0a94c": "D-02419",
+  "9be24dc8-36ff-4c34-85ac-5db32c026c26": "D-02437",
+  "9bb3141a-613e-4969-aa84-7ecc55be8a43": "D-02661"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00167",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T02:34:14.074Z"
+  },
+  {
+   "decision_id": "D-02404",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:10:55.451Z"
+  },
+  {
+   "decision_id": "D-02419",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:10:55.441Z (A-00837); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:14:02.547Z"
+  },
+  {
+   "decision_id": "D-02437",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:10:55.441Z (A-00837); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:20:27.012Z"
+  },
+  {
+   "decision_id": "D-02661",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T18:10:55.441Z (A-00837); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T17:27:52.013Z"
+  }
+ ],
+ "actions": [
+  "A-00066",
+  "A-00837"
+ ],
+ "live_page": {
+  "action_id": "A-00837",
+  "dialect": "d2",
+  "published_at": "2026-10-01T16:10:55.441Z",
+  "expires_at": "2026-10-01T18:10:55.441Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "kolo-sapapa-d2",
+   "maya-d2",
+   "molo-d2",
+   "momo-tibaro-d2",
+   "mopi-vasuva-d2",
+   "neba-d2",
+   "neya-kadhana-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "ritisa-guti-d2",
+   "riya-d2",
+   "sadha-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:27:51.983Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01668",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T02:34:13.703Z",
+   "deadline": "2026-10-04T02:34:13.703Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T02:34:13.703Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

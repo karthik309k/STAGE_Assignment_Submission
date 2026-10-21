@@ -1,0 +1,93 @@
+{
+ "viewer_id": "U-04087",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "de94d823-1518-411b-a83d-7cd91b986a18": "D-00412",
+  "ba60df9c-d49c-4fac-a535-9bcc6e0935c5": "D-01174",
+  "27ceccae-997a-4315-b2f5-9c65dad1ef81": "D-01588",
+  "9e00e7f8-fb91-49df-ac58-677fc57834a4": "D-01823",
+  "e5cfe4e7-10a7-4992-8468-c7f4933cad22": "D-02708"
+ },
+ "handled_sessions": {
+  "617699c2-5758-46e7-9e65-156a49325252": "D-01174",
+  "cde32baf-f5d3-4bf2-8bb7-156d2f0b52fd": "D-01588",
+  "f5bcb763-a14c-4d62-8e2c-a69d12154a0b": "D-01823",
+  "760f849d-babd-424b-95ab-b2d6a4e39fac": "D-02708"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00412",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 173838s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:45:37.712Z"
+  },
+  {
+   "decision_id": "D-01174",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T09:20:39.973Z"
+  },
+  {
+   "decision_id": "D-01588",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T12:39:45.787Z"
+  },
+  {
+   "decision_id": "D-01589",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T12:39:52.288Z"
+  },
+  {
+   "decision_id": "D-01823",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T14:05:22.862Z"
+  },
+  {
+   "decision_id": "D-01833",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T14:09:39.011Z"
+  },
+  {
+   "decision_id": "D-02708",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T17:50:11.870Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:50:11.860Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

@@ -1,0 +1,7 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+one_user_one_agent_pack/
+one_user_one_agent_data_pack/
+*.zip
+.vscode/

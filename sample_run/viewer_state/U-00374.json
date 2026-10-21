@@ -1,0 +1,122 @@
+{
+ "viewer_id": "U-00374",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:58:29.304Z",
+  "deadline": "2026-10-04T05:58:29.304Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "pate-kari-d3",
+   "title_id": "T0909",
+   "next_ep": "pate-kari-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "945a9820-19de-4d26-ab2a-bb05477cb7d6": "D-00741",
+  "01164be9-bd08-47ed-9963-9110194cffbd": "D-02566",
+  "681620ab-be42-4736-b8a0-091e39a477b9": "D-02767"
+ },
+ "handled_sessions": {
+  "5f802df8-6fd0-4b1a-8f2d-5a3b6969e51c": "D-00741",
+  "cc46ce5f-5124-4599-b2af-8d5669593089": "D-02566",
+  "d20b23b7-9644-4cd4-a40b-d0360fef3529": "D-02767"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00741",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:58:29.670Z"
+  },
+  {
+   "decision_id": "D-02566",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:56:31.515Z"
+  },
+  {
+   "decision_id": "D-02767",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T18:27:47.962Z"
+  }
+ ],
+ "actions": [
+  "A-00195",
+  "A-00890",
+  "A-00951"
+ ],
+ "live_page": {
+  "action_id": "A-00951",
+  "dialect": "d3",
+  "published_at": "2026-10-01T18:27:47.952Z",
+  "expires_at": "2026-10-01T20:27:47.952Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T18:27:47.895Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00374",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:58:29.304Z",
+   "deadline": "2026-10-04T05:58:29.304Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:58:29.304Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

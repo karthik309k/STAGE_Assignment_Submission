@@ -1,0 +1,126 @@
+{
+ "viewer_id": "U-04158",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:59:53.304Z",
+  "deadline": "2026-10-04T05:59:53.304Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bhari-vagi-d6",
+   "title_id": "T1393",
+   "next_ep": "bhari-vagi-d6-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "468a0f67-c2c0-44ff-9f0a-de7f08fdccc8": "D-00745",
+  "71448377-b3fc-45aa-a9b2-e1b6a90c2745": "D-02703"
+ },
+ "handled_sessions": {
+  "4300d7e9-c668-4b47-aa12-bcd47447285f": "D-00745",
+  "eeb60c3c-7b5b-4742-9812-f41812191125": "D-02703"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00745",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:59:53.672Z"
+  },
+  {
+   "decision_id": "D-02703",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T17:47:32.744Z"
+  }
+ ],
+ "actions": [
+  "A-00196",
+  "A-00930"
+ ],
+ "live_page": {
+  "action_id": "A-00930",
+  "dialect": "d6",
+  "published_at": "2026-10-01T17:47:32.734Z",
+  "expires_at": "2026-10-01T19:47:32.734Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "kapa-lone-d6",
+   "kolo-gisa-d6",
+   "lojane-pijasa-d6",
+   "loyate-d6",
+   "mana-nati-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "naka-d6",
+   "napa-jara-d6",
+   "pija-diha-d6",
+   "piri-jama-d6",
+   "pivari-lava-d6",
+   "rasuya-moni-d6",
+   "riri-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tekamo-dineni-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "yagi-dagi-d6",
+   "yara-koja-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:47:32.676Z",
+  "dialect": "d6"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04158",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:59:53.304Z",
+   "deadline": "2026-10-04T05:59:53.304Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:59:53.304Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-02960",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T10:59:13.623Z",
+  "deadline": "2026-10-08T10:59:13.623Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "769a19d5-13b4-4ea0-a839-44aacaca7826": "D-01378"
+ },
+ "handled_sessions": {
+  "507988b6-5c54-4b39-a4c6-b4350bd603b9": "D-01378"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01378",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T10:59:13.994Z"
+  }
+ ],
+ "actions": [
+  "A-00455"
+ ],
+ "live_page": {
+  "action_id": "A-00455",
+  "dialect": "d1",
+  "published_at": "2026-10-01T10:59:13.984Z",
+  "expires_at": "2026-10-01T12:59:13.984Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T10:59:13.623Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02960",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T10:59:13.623Z",
+   "deadline": "2026-10-08T10:59:13.623Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G12": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G12 failed (started 2026-10-01T10:59:13.623Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

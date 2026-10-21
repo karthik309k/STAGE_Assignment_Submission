@@ -1,0 +1,106 @@
+{
+ "viewer_id": "U-00613",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T09:07:40.923Z",
+  "deadline": "2026-10-04T09:07:40.923Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "haja-d3",
+   "title_id": "T0907",
+   "next_ep": "haja-d3-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "79f2047c-c140-4069-81e6-240684490473": "D-01146",
+  "7e18b7e7-e73e-4734-b1bd-9dcb7f994797": "D-01147"
+ },
+ "handled_sessions": {
+  "4aed5e44-038f-4ad0-9c11-5b30237f8b18": "D-01146"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01146",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T09:07:41.289Z"
+  },
+  {
+   "decision_id": "D-01147",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01146",
+   "published_at": "2026-10-01T09:07:46.962Z"
+  }
+ ],
+ "actions": [
+  "A-00374"
+ ],
+ "live_page": {
+  "action_id": "A-00374",
+  "dialect": "d3",
+  "published_at": "2026-10-01T09:07:41.279Z",
+  "expires_at": "2026-10-01T11:07:41.279Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T09:07:46.952Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00613",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T09:07:40.923Z",
+   "deadline": "2026-10-04T09:07:40.923Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T09:07:40.923Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,103 @@
+{
+ "viewer_id": "U-02929",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T05:44:53.400Z",
+  "deadline": "2026-10-08T05:44:53.400Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "cf9ddbd2-06c2-4d1b-bbd4-fe61f1e95b34": "D-00705",
+  "3032fa9c-f18f-41b2-945d-f3f9f94d8fa3": "D-02305"
+ },
+ "handled_sessions": {
+  "cc9cd792-3fb8-4143-82a8-e4e185fe812c": "D-00705",
+  "c54f17ff-187a-4910-9dd0-99419b423d7c": "D-02305"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00705",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T05:44:53.766Z"
+  },
+  {
+   "decision_id": "D-02305",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T15:40:58.132Z"
+  }
+ ],
+ "actions": [
+  "A-00181",
+  "A-00803"
+ ],
+ "live_page": {
+  "action_id": "A-00803",
+  "dialect": "d3",
+  "published_at": "2026-10-01T15:40:58.122Z",
+  "expires_at": "2026-10-01T17:40:58.122Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:40:58.066Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02929",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T05:44:53.400Z",
+   "deadline": "2026-10-08T05:44:53.400Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T05:44:53.400Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

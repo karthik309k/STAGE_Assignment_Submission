@@ -1,0 +1,99 @@
+{
+ "viewer_id": "U-00741",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T15:49:54.570Z",
+  "deadline": "2026-10-04T15:49:54.570Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "jakasa-dapi-d3",
+   "title_id": "T0904",
+   "next_ep": "jakasa-dapi-d3-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "4357af36-2a4b-49f7-bc2a-9a835710ed39": "D-02338"
+ },
+ "handled_sessions": {
+  "08cf619f-8c70-49fd-bf63-f61286ac1b0f": "D-02338"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02338",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:49:54.938Z"
+  }
+ ],
+ "actions": [
+  "A-00816"
+ ],
+ "live_page": {
+  "action_id": "A-00816",
+  "dialect": "d3",
+  "published_at": "2026-10-01T15:49:54.928Z",
+  "expires_at": "2026-10-01T17:49:54.928Z",
+  "slugs": [
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:49:54.570Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00741",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T15:49:54.570Z",
+   "deadline": "2026-10-04T15:49:54.570Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-004889"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G07": 1
+  },
+  "notes": [
+   "G07 succeeded (started 2026-10-01T15:49:54.570Z): keep using"
+  ]
+ },
+ "flags": []
+}

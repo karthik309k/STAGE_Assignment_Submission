@@ -1,0 +1,133 @@
+{
+ "viewer_id": "U-04496",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T10:41:22.344Z",
+  "deadline": "2026-10-04T10:41:22.344Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "dhapipa-gini-d2",
+   "title_id": "T0523",
+   "next_ep": "dhapipa-gini-d2-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "fd9a05ed-2bb7-477d-a1d0-21feaa532255": "D-00547",
+  "b891a2ea-1315-47ca-b580-55fddb774f29": "D-01331",
+  "8e251994-d82e-42d9-b413-74ef91ccca60": "D-01332"
+ },
+ "handled_sessions": {
+  "2ee59c7d-c156-463f-9b3c-0576494ca19e": "D-01331"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00547",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 51486s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:47:29.914Z"
+  },
+  {
+   "decision_id": "D-01331",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T10:41:22.467Z"
+  },
+  {
+   "decision_id": "D-01332",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01331",
+   "published_at": "2026-10-01T10:41:26.277Z"
+  }
+ ],
+ "actions": [
+  "A-00437"
+ ],
+ "live_page": {
+  "action_id": "A-00437",
+  "dialect": "d2",
+  "published_at": "2026-10-01T10:41:22.457Z",
+  "expires_at": "2026-10-01T12:41:22.457Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "bhatesa-bayaya-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "dipasa-pimoha-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "guneba-guba-d2",
+   "hako-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "neba-d2",
+   "nesa-d2",
+   "nipi-maniba-d2",
+   "nira-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "suma-d2",
+   "tela-sagi-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T10:41:26.267Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04496",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T10:41:22.344Z",
+   "deadline": "2026-10-04T10:41:22.344Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T10:41:22.344Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

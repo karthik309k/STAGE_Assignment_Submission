@@ -1,0 +1,113 @@
+{
+ "viewer_id": "U-01261",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T04:26:15.895Z",
+  "deadline": "2026-10-08T04:26:15.895Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "db1c6480-899e-4fb5-9b80-3aff6db6a29c": "D-00324",
+  "e1b700b8-b3bc-4f22-bc30-0951f418edbe": "D-01360",
+  "a933b0e5-a8d8-453a-9f4b-f2a4b5330f7f": "D-01730"
+ },
+ "handled_sessions": {
+  "6641b02f-72b8-4032-a524-b83175354a4e": "D-00324",
+  "a75b7736-990d-494d-81fc-dc22c8dfac05": "D-01360",
+  "eb5b1bf0-e01a-45c5-b9ec-ab323c503ef3": "D-01730"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00324",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T04:26:16.261Z"
+  },
+  {
+   "decision_id": "D-01360",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'NA' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T10:51:22.706Z"
+  },
+  {
+   "decision_id": "D-01730",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T13:37:57.789Z"
+  }
+ ],
+ "actions": [
+  "A-00123",
+  "A-00583"
+ ],
+ "live_page": {
+  "action_id": "A-00583",
+  "dialect": "d3",
+  "published_at": "2026-10-01T13:37:57.778Z",
+  "expires_at": "2026-10-01T15:37:57.778Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T13:37:57.723Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01261",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T04:26:15.895Z",
+   "deadline": "2026-10-08T04:26:15.895Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T04:26:15.895Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

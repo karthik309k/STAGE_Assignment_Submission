@@ -1,0 +1,119 @@
+{
+ "viewer_id": "U-04179",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T03:01:29.559Z",
+  "deadline": "2026-10-04T03:01:29.559Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "jakasa-dapi-d3",
+   "title_id": "T0904",
+   "next_ep": "jakasa-dapi-d3-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "bc0a02ac-3f77-4931-8bff-e88497776c73": "D-00206",
+  "b1f50942-86a7-4fbc-8b0e-92e819833b1a": "D-02491",
+  "c7b5ebb2-96a9-408c-a03d-fb7c1efdce74": "D-02735"
+ },
+ "handled_sessions": {
+  "b49cbd5d-17c2-4cb4-9458-0de35c5e2bbb": "D-00206",
+  "3a690359-49ee-4f44-8455-5aba69b02d70": "D-02491",
+  "de34d63f-69c0-4df8-9ecf-99713dc1bc60": "D-02735"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00206",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T03:01:29.926Z"
+  },
+  {
+   "decision_id": "D-02491",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:35:32.490Z"
+  },
+  {
+   "decision_id": "D-02735",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T18:05:57.015Z"
+  }
+ ],
+ "actions": [
+  "A-00083",
+  "A-00866",
+  "A-00943"
+ ],
+ "live_page": {
+  "action_id": "A-00943",
+  "dialect": "d3",
+  "published_at": "2026-10-01T18:05:57.005Z",
+  "expires_at": "2026-10-01T20:05:57.005Z",
+  "slugs": [
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "ririgi-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T18:05:56.949Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04179",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T03:01:29.559Z",
+   "deadline": "2026-10-04T03:01:29.559Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T03:01:29.559Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

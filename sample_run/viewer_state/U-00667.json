@@ -1,0 +1,141 @@
+{
+ "viewer_id": "U-00667",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G06",
+  "name": "reactivate_lapsed_14d",
+  "started_at": "2026-10-01T00:51:39.136Z",
+  "deadline": "2026-10-15T00:51:39.136Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "any paid plan",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'recently lapsed' interpreted as a lapse event within 30 days"
+  ],
+  "message_planned": true
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "2c09789f-5212-490a-a63a-874b65faa6e9": "D-00092",
+  "54965cdb-724f-4f33-a6bf-faac87e07e2d": "D-01389",
+  "5879353a-f6ca-46d1-8bd0-7ffa0a629ca3": "D-01950"
+ },
+ "handled_sessions": {
+  "6a0fa1da-5834-44f5-a3aa-d30b65dd6a0f": "D-00092",
+  "3e456856-e401-43a7-8579-ba070685b6c4": "D-01389",
+  "e8893b1a-dddd-48d7-937a-516e71bd93cb": "D-01950"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00092",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T00:51:39.503Z"
+  },
+  {
+   "decision_id": "D-01389",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T11:06:52.380Z"
+  },
+  {
+   "decision_id": "D-01950",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T14:40:08.738Z"
+  }
+ ],
+ "actions": [
+  "A-00038",
+  "A-00039",
+  "A-00462",
+  "A-00667"
+ ],
+ "live_page": {
+  "action_id": "A-00667",
+  "dialect": "d2",
+  "published_at": "2026-10-01T14:40:08.728Z",
+  "expires_at": "2026-10-01T16:40:08.728Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bala-naja-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhabhara-kaloka-d2",
+   "dipasa-pimoha-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "gisachu-techu-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "hako-d2",
+   "neba-d2",
+   "nesa-d2",
+   "nipi-maniba-d2",
+   "nira-d2",
+   "rakabha-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "sadha-d2",
+   "teja-koriri-d2",
+   "tero-koja-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:40:08.670Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00667",
+   "arm": "agent",
+   "goal_id": "G06",
+   "started_at": "2026-10-01T00:51:39.136Z",
+   "deadline": "2026-10-15T00:51:39.136Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-004350"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G06": 1
+  },
+  "notes": [
+   "G06 succeeded (started 2026-10-01T00:51:39.136Z): keep using"
+  ]
+ },
+ "flags": [],
+ "in_app_ledger": {
+  "2026-10-01": [
+   "A-00039"
+  ]
+ }
+}

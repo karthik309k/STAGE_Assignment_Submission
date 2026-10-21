@@ -1,0 +1,55 @@
+{
+ "viewer_id": "U-04004",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "423dfc0b-48cc-4e25-ab5c-57bc2c544a8b": "D-01760",
+  "4d3c3f37-1c5d-459e-b925-dc1f6e63a8da": "D-01761"
+ },
+ "handled_sessions": {
+  "f20f1922-90dc-42e9-b2bc-9a2414f950c2": "D-01760"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01760",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting None is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T13:46:55.581Z"
+  },
+  {
+   "decision_id": "D-01761",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01760",
+   "published_at": "2026-10-01T13:46:58.209Z"
+  },
+  {
+   "decision_id": "D-01780",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T13:54:07.497Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T13:54:07.487Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

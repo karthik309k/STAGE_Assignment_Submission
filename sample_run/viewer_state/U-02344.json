@@ -1,0 +1,151 @@
+{
+ "viewer_id": "U-02344",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-09-30T18:32:59.458Z",
+  "deadline": "2026-10-03T18:32:59.458Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "yatite-roloda-d3",
+   "title_id": "T0901",
+   "next_ep": "yatite-roloda-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "9ffd7200-d9e5-4fd0-8106-bb555fdf33cb": "D-00001",
+  "af345733-f9f3-4243-b5bf-c2cf0d2a4860": "D-00778",
+  "3dbabf70-3e9b-4998-b397-9eb4b859decf": "D-01428",
+  "818de0a8-8e86-4bc3-b00a-2bb62d48bf17": "D-01901",
+  "77ff802d-30f5-4f8d-a694-f8132a6ab2f4": "D-02194",
+  "df7e6c25-339c-4e40-9a61-de037f1d15ac": "D-02698"
+ },
+ "handled_sessions": {
+  "a1f156db-040e-429d-9ac7-68de5610dba7": "D-00001",
+  "70565472-e16c-422c-b350-79d919c6d00f": "D-00778",
+  "d267724d-0595-4a3d-b048-805c785aaea3": "D-01428",
+  "e8184f95-878a-4b8e-af66-51f4e5576466": "D-01901",
+  "5368cae5-dfd7-4109-b74a-8fbd0ecd0763": "D-02194",
+  "9ffc28e4-20a4-4ade-a9ab-2c28d572e9f5": "D-02698"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00001",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-09-30T18:32:59.869Z"
+  },
+  {
+   "decision_id": "D-00778",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T06:18:42.584Z"
+  },
+  {
+   "decision_id": "D-01428",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T11:31:37.885Z"
+  },
+  {
+   "decision_id": "D-01901",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T14:26:43.042Z"
+  },
+  {
+   "decision_id": "D-02194",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T16:26:43.032Z (A-00644); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T15:12:31.134Z"
+  },
+  {
+   "decision_id": "D-02698",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T17:45:11.789Z"
+  }
+ ],
+ "actions": [
+  "A-00001",
+  "A-00216",
+  "A-00475",
+  "A-00644",
+  "A-00929"
+ ],
+ "live_page": {
+  "action_id": "A-00929",
+  "dialect": "d3",
+  "published_at": "2026-10-01T17:45:11.779Z",
+  "expires_at": "2026-10-01T19:45:11.779Z",
+  "slugs": [
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "ririgi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:45:11.722Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02344",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-09-30T18:32:59.458Z",
+   "deadline": "2026-10-03T18:32:59.458Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-09-30T18:32:59.458Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

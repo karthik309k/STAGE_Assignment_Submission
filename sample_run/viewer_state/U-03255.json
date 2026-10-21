@@ -1,0 +1,76 @@
+{
+ "viewer_id": "U-03255",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "1fe572fe-324e-4355-9355-2f3f6cfcc296": "D-00105",
+  "02cefb0e-0cbe-48e5-877f-008a350c34db": "D-01269",
+  "19c1d2f7-ed10-4820-a694-2ca84589381d": "D-01395",
+  "0d0cdb0f-c97a-46c9-9dd6-98ad3ca177d9": "D-02762",
+  "0be5cd89-06fb-4f44-ba38-46b0520bb3ab": "D-02763"
+ },
+ "handled_sessions": {
+  "7380e29d-8c8d-4c1c-a339-dba3a438eea6": "D-01269",
+  "2edd81e8-e355-4be2-94a8-e7cc86908c99": "D-01395",
+  "4a503531-3b17-4c63-a916-207b7584f3c3": "D-02762"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00105",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 530594s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T01:21:05.581Z"
+  },
+  {
+   "decision_id": "D-01269",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T10:07:41.615Z"
+  },
+  {
+   "decision_id": "D-01395",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T11:10:21.741Z"
+  },
+  {
+   "decision_id": "D-02762",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T18:25:28.178Z"
+  },
+  {
+   "decision_id": "D-02763",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-02762",
+   "published_at": "2026-10-01T18:25:32.859Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T18:25:32.849Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

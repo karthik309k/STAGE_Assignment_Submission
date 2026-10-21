@@ -1,0 +1,106 @@
+{
+ "viewer_id": "U-01666",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T12:53:11.734Z",
+  "deadline": "2026-10-04T12:53:11.734Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "30766373-ff6f-45c0-a2d2-b3048e7e956e": "D-01620"
+ },
+ "handled_sessions": {
+  "2152039d-c5d5-43ce-908a-667760cf2511": "D-01620"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01620",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T12:53:12.106Z"
+  },
+  {
+   "decision_id": "D-01621",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T12:53:21.712Z"
+  }
+ ],
+ "actions": [
+  "A-00544"
+ ],
+ "live_page": {
+  "action_id": "A-00544",
+  "dialect": "d1",
+  "published_at": "2026-10-01T12:53:12.096Z",
+  "expires_at": "2026-10-01T14:53:12.096Z",
+  "slugs": [
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gima-bhadaba-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "rina-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T12:53:21.702Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01666",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T12:53:11.734Z",
+   "deadline": "2026-10-04T12:53:11.734Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G02": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G02 failed (started 2026-10-01T12:53:11.734Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

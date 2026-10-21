@@ -1,0 +1,128 @@
+{
+ "viewer_id": "U-03850",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G06",
+  "name": "reactivate_lapsed_14d",
+  "started_at": "2026-10-01T03:01:26.224Z",
+  "deadline": "2026-10-15T03:01:26.224Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "any paid plan",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'recently lapsed' interpreted as a lapse event within 30 days"
+  ],
+  "message_planned": true
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "01811775-9d4c-4f72-b91a-1d5ddd706a1a": "D-00205",
+  "a3e7fb3a-b945-4d9f-a74c-a64b51ba7bb5": "D-02692"
+ },
+ "handled_sessions": {
+  "d5ac3f39-2529-4912-a5b7-62dec3d2ed8b": "D-00205",
+  "9fee18de-9a3d-4953-acb7-777b0324086b": "D-02692"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00205",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T03:01:26.593Z"
+  },
+  {
+   "decision_id": "D-02692",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T17:41:13.045Z"
+  }
+ ],
+ "actions": [
+  "A-00081",
+  "A-00082",
+  "A-00927"
+ ],
+ "live_page": {
+  "action_id": "A-00927",
+  "dialect": "d1",
+  "published_at": "2026-10-01T17:41:13.035Z",
+  "expires_at": "2026-10-01T19:41:13.035Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "gini-dhachu-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "jasuja-d1",
+   "kopibha-niya-d1",
+   "lapa-mogugu-d1",
+   "mayaja-raro-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nidigu-d1",
+   "pate-batisa-d1",
+   "patena-d1",
+   "pipaka-suni-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "rimo-koni-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "tejari-bhaguri-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tilava-d1",
+   "tiya-bhamaro-d1",
+   "yakani-panine-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {
+  "2026-10-01": "A-00082"
+ },
+ "facts_summary": {
+  "as_of": "2026-10-01T17:41:12.973Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03850",
+   "arm": "agent",
+   "goal_id": "G06",
+   "started_at": "2026-10-01T03:01:26.224Z",
+   "deadline": "2026-10-15T03:01:26.224Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G06": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G06 failed (started 2026-10-01T03:01:26.224Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

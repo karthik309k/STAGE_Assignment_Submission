@@ -1,0 +1,128 @@
+{
+ "viewer_id": "U-02148",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T10:47:38.709Z",
+  "deadline": "2026-10-04T10:47:38.709Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "yatite-roloda-d3",
+   "title_id": "T0901",
+   "next_ep": "yatite-roloda-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "6da315b1-b646-4c4e-8402-41491837ce0c": "D-01347",
+  "d5ce5946-5637-420c-8665-27f28b325de1": "D-01754",
+  "e2219328-59d6-4e86-8894-a421b9c9a6d5": "D-01757",
+  "413ab75d-81ed-44b9-892d-119bd17cf365": "D-02621"
+ },
+ "handled_sessions": {
+  "02cebfa9-c6f8-4318-b820-571b86fa6e84": "D-01347",
+  "6ab12d36-7c5a-4189-bf0c-1eeac53bc05a": "D-01754",
+  "267c2d73-e5bc-4f63-a201-2f102ecb09cb": "D-02621"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01347",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T10:47:39.076Z"
+  },
+  {
+   "decision_id": "D-01754",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T13:46:08.178Z"
+  },
+  {
+   "decision_id": "D-01757",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 6040s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T13:46:30.319Z"
+  },
+  {
+   "decision_id": "D-02621",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T17:14:00.868Z"
+  }
+ ],
+ "actions": [
+  "A-00445",
+  "A-00590",
+  "A-00911"
+ ],
+ "live_page": {
+  "action_id": "A-00911",
+  "dialect": "d3",
+  "published_at": "2026-10-01T17:14:00.858Z",
+  "expires_at": "2026-10-01T19:14:00.858Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:14:00.802Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02148",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T10:47:38.709Z",
+   "deadline": "2026-10-04T10:47:38.709Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T10:47:38.709Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

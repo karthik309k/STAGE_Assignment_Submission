@@ -1,0 +1,107 @@
+{
+ "viewer_id": "U-03460",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T16:28:10.004Z",
+  "deadline": "2026-10-08T16:28:10.004Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "1ac0503a-6625-445c-adef-9306b7b4eca9": "D-02465",
+  "01f90f48-a8c1-452b-9e43-b2a61c57e9be": "D-02466"
+ },
+ "handled_sessions": {
+  "595b0c58-ea86-4425-b56a-144326b4f579": "D-02465"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02465",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T16:28:10.371Z"
+  },
+  {
+   "decision_id": "D-02466",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-02465",
+   "published_at": "2026-10-01T16:28:15.061Z"
+  }
+ ],
+ "actions": [
+  "A-00858"
+ ],
+ "live_page": {
+  "action_id": "A-00858",
+  "dialect": "d6",
+  "published_at": "2026-10-01T16:28:10.361Z",
+  "expires_at": "2026-10-01T18:28:10.361Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "loyate-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "piri-jama-d6",
+   "rasuya-moni-d6",
+   "riri-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:28:15.051Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03460",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T16:28:10.004Z",
+   "deadline": "2026-10-08T16:28:10.004Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G12": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G12 failed (started 2026-10-01T16:28:10.004Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

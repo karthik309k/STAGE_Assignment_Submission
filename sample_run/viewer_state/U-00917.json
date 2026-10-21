@@ -1,0 +1,137 @@
+{
+ "viewer_id": "U-00917",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:03:08.399Z",
+  "deadline": "2026-10-04T05:03:08.399Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "nini-namoko-d1",
+   "title_id": "T0012",
+   "next_ep": "nini-namoko-d1-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "9d07a079-1e4c-4b78-842a-449fd3043635": "D-00611",
+  "8b0d517a-fc5e-4e01-bc68-a2a4bca12eec": "D-01974"
+ },
+ "handled_sessions": {
+  "293658b9-4d05-4ca7-8252-7ee67fd18c56": "D-00611",
+  "7eba1404-f270-445c-8f19-1f59496feee8": "D-01974"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00611",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:03:08.776Z"
+  },
+  {
+   "decision_id": "D-01974",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T14:47:36.299Z"
+  }
+ ],
+ "actions": [
+  "A-00149",
+  "A-00248",
+  "A-00675"
+ ],
+ "live_page": {
+  "action_id": "A-00675",
+  "dialect": "d1",
+  "published_at": "2026-10-01T14:47:36.289Z",
+  "expires_at": "2026-10-01T16:47:36.289Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhada-bhate-d1",
+   "dhati-tiniha-d1",
+   "gibha-lamopa-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hala-d1",
+   "hate-d1",
+   "kopibha-niya-d1",
+   "late-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "padapa-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raloja-d1",
+   "rimo-koni-d1",
+   "rina-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:47:36.229Z",
+  "dialect": "d1"
+ },
+ "replans": [
+  {
+   "viewer_id": "U-00917",
+   "at": "2026-10-01T07:00:00.000Z",
+   "reason": "title withdrawn (rava-baya-d1)",
+   "old_goal": null,
+   "new_goal": null,
+   "cancelled_actions": [],
+   "replacement_page": "A-00248"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-00917",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:03:08.399Z",
+   "deadline": "2026-10-04T05:03:08.399Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:03:08.399Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,107 @@
+{
+ "viewer_id": "U-03159",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G01",
+  "name": "first_play_24h",
+  "started_at": "2026-10-01T01:45:21.960Z",
+  "deadline": "2026-10-02T01:45:21.960Z",
+  "window_hours": 24,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 24
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack (signup is inside the event window)"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "c6b44fe8-24a7-4739-a9a3-c5e8e4efada5": "D-00126",
+  "008d2d3f-53a0-40fc-b196-e06855ca3dcf": "D-00127"
+ },
+ "handled_sessions": {
+  "36948cf3-15af-487f-9a0b-5ed33f0147d4": "D-00126"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00126",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null,
+   "published_at": "2026-10-01T01:45:22.328Z"
+  },
+  {
+   "decision_id": "D-00127",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00126",
+   "published_at": "2026-10-01T01:45:24.754Z"
+  }
+ ],
+ "actions": [
+  "A-00052"
+ ],
+ "live_page": {
+  "action_id": "A-00052",
+  "dialect": "d2",
+  "published_at": "2026-10-01T01:45:22.318Z",
+  "expires_at": "2026-10-01T03:45:22.318Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gidi-chudi-d2",
+   "guneba-guba-d2",
+   "molo-d2",
+   "neba-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T01:45:24.744Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03159",
+   "arm": "agent",
+   "goal_id": "G01",
+   "started_at": "2026-10-01T01:45:21.960Z",
+   "deadline": "2026-10-02T01:45:21.960Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G01": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G01 failed (started 2026-10-01T01:45:21.960Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

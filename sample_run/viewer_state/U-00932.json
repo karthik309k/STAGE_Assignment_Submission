@@ -1,0 +1,126 @@
+{
+ "viewer_id": "U-00932",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T06:14:59.736Z",
+  "deadline": "2026-10-04T06:14:59.736Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bagi-baya-d4",
+   "title_id": "T1811",
+   "next_ep": "bagi-baya-d4-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "64db1568-195a-4d44-8c35-16dfd29b6378": "D-00770",
+  "4a0b770f-703a-4ba8-8701-157ff713786d": "D-02412"
+ },
+ "handled_sessions": {
+  "a706a4d7-7e79-4bce-9303-a7a36bd8950c": "D-00770",
+  "84c5df2f-d557-49a1-84fd-b3a1e8c4d68b": "D-02412"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00770",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T06:15:00.104Z"
+  },
+  {
+   "decision_id": "D-02412",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:12:04.461Z"
+  }
+ ],
+ "actions": [
+  "A-00210",
+  "A-00838"
+ ],
+ "live_page": {
+  "action_id": "A-00838",
+  "dialect": "d4",
+  "published_at": "2026-10-01T16:12:04.451Z",
+  "expires_at": "2026-10-01T18:12:04.451Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "daya-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nava-d4",
+   "netisa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "raja-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:12:04.392Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00932",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T06:14:59.736Z",
+   "deadline": "2026-10-04T06:14:59.736Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T06:14:59.736Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

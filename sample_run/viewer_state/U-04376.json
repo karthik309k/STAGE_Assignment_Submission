@@ -1,0 +1,147 @@
+{
+ "viewer_id": "U-04376",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T04:45:04.980Z",
+  "deadline": "2026-10-04T04:45:04.980Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bhatesa-bayaya-d2",
+   "title_id": "T0565",
+   "next_ep": "bhatesa-bayaya-d2-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "c52df2b3-96de-4c48-b8db-e83737c0d42d": "D-00371",
+  "a025136a-345f-454d-8e75-d58e95c65a08": "D-00630",
+  "3d9a23a5-14e4-474f-9f93-591cac71ef0f": "D-01387",
+  "fd20ac83-c85f-4c95-944e-609a707087d2": "D-02250"
+ },
+ "handled_sessions": {
+  "a7c48898-8a36-439c-b03c-a1ce6d75d91f": "D-00371",
+  "10bbf2cd-2bec-4cec-abc4-9187ff9f92b5": "D-00630",
+  "77158642-bf15-41e4-94ea-876bd2bf0eb1": "D-01387",
+  "4ab4497a-ba25-4335-9705-524bad48736f": "D-02250"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00371",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T04:45:05.351Z"
+  },
+  {
+   "decision_id": "D-00630",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T06:45:05.341Z (A-00138); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T05:08:28.607Z"
+  },
+  {
+   "decision_id": "D-01387",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T11:05:44.212Z"
+  },
+  {
+   "decision_id": "D-02250",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:25:06.698Z"
+  }
+ ],
+ "actions": [
+  "A-00138",
+  "A-00461",
+  "A-00780"
+ ],
+ "live_page": {
+  "action_id": "A-00780",
+  "dialect": "d2",
+  "published_at": "2026-10-01T15:25:06.688Z",
+  "expires_at": "2026-10-01T17:25:06.688Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "bhatesa-bayaya-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dipasa-pimoha-d2",
+   "dira-kova-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "hako-d2",
+   "kodi-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "molo-d2",
+   "neba-d2",
+   "nesa-d2",
+   "nipi-maniba-d2",
+   "nira-d2",
+   "piropa-moguti-d2",
+   "riya-d2",
+   "suma-d2",
+   "tero-koja-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:25:06.628Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04376",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T04:45:04.980Z",
+   "deadline": "2026-10-04T04:45:04.980Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T04:45:04.980Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

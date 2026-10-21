@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-01518",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "8532304f-9619-4015-95c9-b6121dab0d5a": "D-00373",
+  "4eb8f82c-a76d-490b-b0b3-b342885f654a": "D-00987"
+ },
+ "handled_sessions": {
+  "8cad8a47-5352-43df-9c86-90352d7a7576": "D-00987"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00373",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 85475s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:45:06.327Z"
+  },
+  {
+   "decision_id": "D-00987",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'd7' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T07:55:15.088Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T07:55:15.058Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

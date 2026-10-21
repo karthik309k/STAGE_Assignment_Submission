@@ -1,0 +1,92 @@
+{
+ "viewer_id": "U-00583",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T07:29:25.221Z",
+  "deadline": "2026-10-08T07:29:25.221Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "fda720fe-50d0-49bc-9dc7-d14d642e57f2": "D-00922"
+ },
+ "handled_sessions": {
+  "c5632079-e13e-4b74-a650-8de15eae50aa": "D-00922"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00922",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T07:29:25.587Z"
+  }
+ ],
+ "actions": [
+  "A-00287"
+ ],
+ "live_page": {
+  "action_id": "A-00287",
+  "dialect": "d3",
+  "published_at": "2026-10-01T07:29:25.577Z",
+  "expires_at": "2026-10-01T09:29:25.577Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T07:29:25.221Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00583",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T07:29:25.221Z",
+   "deadline": "2026-10-08T07:29:25.221Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T07:29:25.221Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

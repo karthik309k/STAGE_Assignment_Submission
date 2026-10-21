@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-02862",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "5faf3cea-ad24-4a59-822c-fb3adeaf13fa": "D-00502",
+  "07d5a596-70bd-4de2-a361-b7ff99ebdd54": "D-01590"
+ },
+ "handled_sessions": {
+  "02ae83d2-2067-4408-b70c-ae756eaf1c56": "D-01590"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00502",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 473509s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:46:50.593Z"
+  },
+  {
+   "decision_id": "D-01590",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T12:40:13.061Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T12:40:13.048Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

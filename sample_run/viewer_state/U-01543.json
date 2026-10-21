@@ -1,0 +1,47 @@
+{
+ "viewer_id": "U-01543",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "f7cd5cf4-973e-488d-9af7-345db170c0c7": "D-02030",
+  "d1f25444-3e3e-4807-8587-387b037c9a76": "D-02033"
+ },
+ "handled_sessions": {
+  "cc1ad8e9-33c1-4ae3-8b95-0698590d59b9": "D-02030"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02030",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting None is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T15:00:55.196Z"
+  },
+  {
+   "decision_id": "D-02033",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-02030",
+   "published_at": "2026-10-01T15:01:01.432Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:01:01.422Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

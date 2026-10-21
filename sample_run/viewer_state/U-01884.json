@@ -1,0 +1,117 @@
+{
+ "viewer_id": "U-01884",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T17:33:58.997Z",
+  "deadline": "2026-10-04T17:33:58.997Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bagi-baya-d4",
+   "title_id": "T0916",
+   "next_ep": "bagi-baya-d4-s1e7",
+   "next_ep_no": 7
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "dd441dd7-0c6b-4cc3-a2e5-967a8775ec0a": "D-02675"
+ },
+ "handled_sessions": {
+  "da6b437a-21bb-41c2-838b-059bc04b9a41": "D-02675"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02675",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T17:33:59.367Z"
+  }
+ ],
+ "actions": [
+  "A-00924"
+ ],
+ "live_page": {
+  "action_id": "A-00924",
+  "dialect": "d4",
+  "published_at": "2026-10-01T17:33:59.357Z",
+  "expires_at": "2026-10-01T19:33:59.357Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "daya-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nava-d4",
+   "netisa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "raja-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:33:58.997Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01884",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T17:33:58.997Z",
+   "deadline": "2026-10-04T17:33:58.997Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-012663"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G07": 1
+  },
+  "notes": [
+   "G07 succeeded (started 2026-10-01T17:33:58.997Z): keep using"
+  ]
+ },
+ "flags": []
+}

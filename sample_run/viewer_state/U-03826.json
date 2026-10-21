@@ -1,0 +1,77 @@
+{
+ "viewer_id": "U-03826",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "fb9f89e5-c162-43e7-9910-3b5c03b47e7a": "D-00026",
+  "11673f94-50b8-4748-9f83-d362ad66cafc": "D-00101",
+  "48dbee11-ccc6-43c7-8aaa-9429f4d1c6e4": "D-01739",
+  "00d6130e-5ed6-4432-a289-d0dd5f66a798": "D-01924",
+  "05d06169-6f93-4bea-9c8f-4cf9874aad9a": "D-02236"
+ },
+ "handled_sessions": {
+  "e6fbb0c8-4b2e-48aa-933f-0caa077caa61": "D-00026",
+  "a41475ab-74b6-45f7-a14c-5e38b34db483": "D-00101",
+  "853bc82e-98a4-4081-bfdd-9eb5879adfc5": "D-01739",
+  "085deed0-a317-4c40-982e-6332840902d2": "D-01924"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00026",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-09-30T19:26:25.673Z"
+  },
+  {
+   "decision_id": "D-00101",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T01:10:25.562Z"
+  },
+  {
+   "decision_id": "D-01739",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T13:42:34.292Z"
+  },
+  {
+   "decision_id": "D-01924",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T14:31:47.454Z"
+  },
+  {
+   "decision_id": "D-02236",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 84470s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T15:22:03.277Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:22:03.267Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

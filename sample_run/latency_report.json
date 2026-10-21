@@ -1,0 +1,143 @@
+{
+  "decisions": 2769,
+  "published": 895,
+  "settings": {
+    "max_model_calls": 8,
+    "max_tool_calls": 20,
+    "latency_budget_s": 60.0,
+    "hard_fail_s": 300.0,
+    "soft_deadline_s": 20.0,
+    "model_timeout_s": 2.0,
+    "store_read_timeout_s": 1.5,
+    "workers": 4,
+    "shed_queue_wait_s": 5.0,
+    "drop_after_wait_s": 45.0,
+    "mock_model_latency_ms": 300.0,
+    "store_read_ms": 20.0,
+    "store_write_ms": 10.0,
+    "catalogue_ms": 5.0,
+    "fresh_trigger_s": 120.0,
+    "stale_trigger_s": 600.0,
+    "page_ttl_min": 120,
+    "page_refresh_remaining_min": 30,
+    "max_rows": 6,
+    "min_titles_per_row": 3,
+    "max_titles_per_row": 10,
+    "message_min_delay_min": 120,
+    "quiet_start_h": 22,
+    "quiet_end_h": 8,
+    "breaker_threshold": 3,
+    "breaker_cooldown_s": 60.0,
+    "new_user_days": 7,
+    "absence_days": 14,
+    "recent_lapse_days": 30,
+    "resume_gap_days": 3,
+    "new_release_days": 30,
+    "rule_version": "rules-v1",
+    "model_mode": "mock"
+  },
+  "latency_ms_all": {
+    "p50": 11.3,
+    "p95": 371.9,
+    "p99": 375.6,
+    "max": 2229.4
+  },
+  "latency_ms_published": {
+    "p50": 368.6,
+    "p95": 374.5,
+    "p99": 378.1,
+    "max": 2229.4
+  },
+  "over_60s": 0,
+  "over_300s": 0,
+  "queue_wait_s": {
+    "max": 0.0,
+    "p95": 0.0
+  },
+  "peak_minute": {
+    "minute": "2026-10-01T04:45",
+    "decisions": 79,
+    "median_minute": 2
+  },
+  "slowest": [
+    {
+      "decision_id": "D-01657",
+      "viewer_id": "U-04801",
+      "status": "PUBLISHED",
+      "deliver_at": "2026-10-01T13:11:04.289Z",
+      "decided_in_ms": 2229.4,
+      "queue_wait_s": 0.0,
+      "action": "HOME_PAGE",
+      "fallback": [],
+      "model_calls": 1,
+      "tool_calls": 6
+    },
+    {
+      "decision_id": "D-01670",
+      "viewer_id": "U-03475",
+      "status": "PUBLISHED",
+      "deliver_at": "2026-10-01T13:15:04.917Z",
+      "decided_in_ms": 1880.6,
+      "queue_wait_s": 0.0,
+      "action": "HOME_PAGE",
+      "fallback": [],
+      "model_calls": 1,
+      "tool_calls": 6
+    },
+    {
+      "decision_id": "D-01667",
+      "viewer_id": "U-03481",
+      "status": "PUBLISHED",
+      "deliver_at": "2026-10-01T13:14:10.376Z",
+      "decided_in_ms": 1685.6,
+      "queue_wait_s": 0.0,
+      "action": "HOME_PAGE",
+      "fallback": [],
+      "model_calls": 1,
+      "tool_calls": 6
+    },
+    {
+      "decision_id": "D-01656",
+      "viewer_id": "U-03839",
+      "status": "PUBLISHED",
+      "deliver_at": "2026-10-01T13:11:04.263Z",
+      "decided_in_ms": 1104.3,
+      "queue_wait_s": 0.0,
+      "action": "HOME_PAGE",
+      "fallback": [],
+      "model_calls": 1,
+      "tool_calls": 6
+    },
+    {
+      "decision_id": "D-01404",
+      "viewer_id": "U-02563",
+      "status": "PUBLISHED",
+      "deliver_at": "2026-10-01T11:18:45.449Z",
+      "decided_in_ms": 668.0,
+      "queue_wait_s": 0.0,
+      "action": "HOME_PAGE",
+      "fallback": [
+        "model_output_malformed"
+      ],
+      "model_calls": 2,
+      "tool_calls": 6
+    }
+  ],
+  "fallbacks": {
+    "stale_trigger_skipped": 424,
+    "model_claim_rejected_by_verifier": 1,
+    "model_unavailable": 5,
+    "model_skipped_circuit_open": 5,
+    "model_output_malformed": 1
+  },
+  "shed": 0,
+  "status_counts": {
+    "PUBLISHED": 895,
+    "NO_ACTION": 1784,
+    "DUPLICATE_IGNORED": 90
+  },
+  "model_calls_max": 2,
+  "tool_calls_max": 6,
+  "holdout_actions": 0,
+  "note": "decided_in_ms = measured compute + simulated dependency latency + queue wait; replay itself runs faster than real time"
+}

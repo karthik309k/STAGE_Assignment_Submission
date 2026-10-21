@@ -1,0 +1,144 @@
+{
+ "viewer_id": "U-03298",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-09-30T23:38:20.154Z",
+  "deadline": "2026-10-03T23:38:20.154Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bala-naja-d2",
+   "title_id": "T0581",
+   "next_ep": "bala-naja-d2-s1e4",
+   "next_ep_no": 4
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "297d70d2-1640-4582-97fd-e7c1f7103588": "D-00065",
+  "c19ed3bf-3434-4d0e-acf2-ac995240d234": "D-00066",
+  "72672287-fda8-475d-be4b-35972387d243": "D-00912",
+  "1f6bff85-94ee-4fce-8902-0227843b3e7e": "D-00913"
+ },
+ "handled_sessions": {
+  "8fbeb3cd-a4a5-4cbc-b9f0-b4fc7b8b423c": "D-00065",
+  "8cba5154-1ad6-46af-87a5-3a3ed456e8fb": "D-00912"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00065",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-09-30T23:38:20.524Z"
+  },
+  {
+   "decision_id": "D-00066",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00065",
+   "published_at": "2026-09-30T23:38:22.220Z"
+  },
+  {
+   "decision_id": "D-00912",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T07:25:29.457Z"
+  },
+  {
+   "decision_id": "D-00913",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00912",
+   "published_at": "2026-10-01T07:25:30.499Z"
+  }
+ ],
+ "actions": [
+  "A-00027",
+  "A-00282"
+ ],
+ "live_page": {
+  "action_id": "A-00282",
+  "dialect": "d2",
+  "published_at": "2026-10-01T07:25:29.447Z",
+  "expires_at": "2026-10-01T09:25:29.447Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bala-naja-d2",
+   "bhaja-moguba-d2",
+   "bhaka-d2",
+   "bhariya-d2",
+   "chugu-d2",
+   "dana-guchuri-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "gisu-d2",
+   "guchu-riyada-d2",
+   "guneba-guba-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "neba-d2",
+   "pala-nedipi-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "tela-sagi-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T07:25:30.489Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03298",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-09-30T23:38:20.154Z",
+   "deadline": "2026-10-03T23:38:20.154Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-09-30T23:38:20.154Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

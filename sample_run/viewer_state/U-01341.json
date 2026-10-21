@@ -1,0 +1,149 @@
+{
+ "viewer_id": "U-01341",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T17:27:25.854Z",
+  "deadline": "2026-10-08T17:27:25.854Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [
+  {
+   "goal_id": "G12",
+   "name": "return_after_absence_7d",
+   "started_at": "2026-10-01T07:52:07.661Z",
+   "deadline": "2026-10-08T07:52:07.661Z",
+   "window_hours": 168,
+   "rule_version": "v1",
+   "success": {
+    "event": "play_started",
+    "condition": "any title",
+    "window_hours": 168
+   },
+   "status": "closed",
+   "context": {},
+   "assumptions": [
+    "absence judged from received events only; other devices are unknown"
+   ],
+   "closed_reason": "no_longer_eligible: opened the app within the last 14 days",
+   "closed_at": "2026-10-01T17:27:25.854Z"
+  }
+ ],
+ "processed_triggers": {
+  "8a9ca706-32b3-4e6f-a26e-a47f857005ff": "D-00979",
+  "f6c779a7-6109-4a8f-bfd9-a3afcda9d6d2": "D-02658"
+ },
+ "handled_sessions": {
+  "a9d63a43-6f78-4ead-96dd-69fbe8f77125": "D-00979",
+  "43367a05-d2aa-4411-a8a8-2d5b8664fa73": "D-02658"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00979",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T07:52:08.029Z"
+  },
+  {
+   "decision_id": "D-02658",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T17:27:26.224Z"
+  }
+ ],
+ "actions": [
+  "A-00308",
+  "A-00918"
+ ],
+ "live_page": {
+  "action_id": "A-00918",
+  "dialect": "d1",
+  "published_at": "2026-10-01T17:27:26.214Z",
+  "expires_at": "2026-10-01T19:27:26.214Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gima-bhadaba-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:27:25.854Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01341",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T07:52:07.661Z",
+   "deadline": "2026-10-08T07:52:07.661Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": "no_longer_eligible: opened the app within the last 14 days",
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-008985"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  },
+  {
+   "viewer_id": "U-01341",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T17:27:25.854Z",
+   "deadline": "2026-10-08T17:27:25.854Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {
+   "G12": 1
+  },
+  "notes": [
+   "G12 succeeded (started 2026-10-01T07:52:07.661Z): keep using",
+   "G05 failed (started 2026-10-01T17:27:25.854Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

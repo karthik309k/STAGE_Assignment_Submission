@@ -1,0 +1,84 @@
+{
+ "viewer_id": "U-03016",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "199222b1-689c-4345-b5b2-e2ac2c015bb1": "D-01471",
+  "535c8480-f729-49dc-b6f7-ff852f8f22eb": "D-01563",
+  "db73bdb2-dad0-4564-9155-3fcf50b68d72": "D-01714",
+  "d6abc646-9c54-4e01-b1e5-7ac778d54255": "D-01986",
+  "02af5c05-fbae-4e9d-bc3f-8fd1d3972dec": "D-02606"
+ },
+ "handled_sessions": {
+  "b6a3a782-5c7c-4be8-acd9-5eb79933b633": "D-01563",
+  "bf1d1d89-e4f4-4a74-99d8-e860edb324ed": "D-01714",
+  "afdd8de0-7c02-4d54-a7b6-c2f2fb250414": "D-02606"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01471",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 218795s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T11:49:49.573Z"
+  },
+  {
+   "decision_id": "D-01563",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T12:24:13.812Z"
+  },
+  {
+   "decision_id": "D-01579",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T12:35:33.778Z"
+  },
+  {
+   "decision_id": "D-01714",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T13:34:08.381Z"
+  },
+  {
+   "decision_id": "D-01986",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 2502s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T14:51:40.636Z"
+  },
+  {
+   "decision_id": "D-02606",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T17:09:08.577Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:09:08.567Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

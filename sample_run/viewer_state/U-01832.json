@@ -1,0 +1,111 @@
+{
+ "viewer_id": "U-01832",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G01",
+  "name": "first_play_24h",
+  "started_at": "2026-10-01T04:56:42.929Z",
+  "deadline": "2026-10-02T04:56:42.929Z",
+  "window_hours": 24,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 24
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack (signup is inside the event window)"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "d66956bd-d73c-4f48-97df-e84d803560ef": "D-00597",
+  "ccded7db-a37f-45fb-a512-a3f78dec6d97": "D-00598"
+ },
+ "handled_sessions": {
+  "c3ed4bd5-935e-4578-84b7-5c5ab243cea9": "D-00597"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00597",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null,
+   "published_at": "2026-10-01T04:56:43.295Z"
+  },
+  {
+   "decision_id": "D-00598",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00597",
+   "published_at": "2026-10-01T04:56:45.723Z"
+  },
+  {
+   "decision_id": "D-00601",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T04:58:18.910Z"
+  }
+ ],
+ "actions": [
+  "A-00144"
+ ],
+ "live_page": {
+  "action_id": "A-00144",
+  "dialect": "d3",
+  "published_at": "2026-10-01T04:56:43.285Z",
+  "expires_at": "2026-10-01T06:56:43.285Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T04:58:18.900Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01832",
+   "arm": "agent",
+   "goal_id": "G01",
+   "started_at": "2026-10-01T04:56:42.929Z",
+   "deadline": "2026-10-02T04:56:42.929Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-012484"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G01": 1
+  },
+  "notes": [
+   "G01 succeeded (started 2026-10-01T04:56:42.929Z): keep using"
+  ]
+ },
+ "flags": []
+}

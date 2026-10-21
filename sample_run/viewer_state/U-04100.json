@@ -1,0 +1,76 @@
+{
+ "viewer_id": "U-04100",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "1825aa23-259d-4474-b601-13dd5ae3364a": "D-00208",
+  "bdeeef89-ff73-46fe-8e1b-4fec1fdde99c": "D-00852",
+  "21828e0e-7efc-4657-bc5d-250aa81e2c61": "D-01541",
+  "bf4d139a-e13c-4090-8967-a9a77e3cd90f": "D-02525"
+ },
+ "handled_sessions": {
+  "7611d03f-ee98-4fcb-b291-407ad2e4eeec": "D-00208",
+  "e81544ca-e4a2-4d67-8721-8f8e7a8fb453": "D-00852",
+  "d77828f6-3544-4d8a-9455-9d772f4e4373": "D-01541",
+  "3fe22806-b524-4587-8892-a15da5f6224b": "D-02525"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00208",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T03:02:10.002Z"
+  },
+  {
+   "decision_id": "D-00209",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T03:02:16.227Z"
+  },
+  {
+   "decision_id": "D-00852",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T06:59:04.695Z"
+  },
+  {
+   "decision_id": "D-01541",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T12:14:12.100Z"
+  },
+  {
+   "decision_id": "D-02525",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T16:44:40.028Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:44:40.016Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

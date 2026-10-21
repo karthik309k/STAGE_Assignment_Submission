@@ -1,0 +1,125 @@
+{
+ "viewer_id": "U-02934",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T15:05:26.852Z",
+  "deadline": "2026-10-04T15:05:26.852Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bagi-baya-d4",
+   "title_id": "T0916",
+   "next_ep": "bagi-baya-d4-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "4b59ce24-9923-4a3f-8622-e0dae1fd1880": "D-02102",
+  "92d61e1f-6c83-4bd7-8baa-93fbf75e0f1e": "D-02268"
+ },
+ "handled_sessions": {
+  "7d2e5a57-c4ef-4514-a866-1c80df6adb06": "D-02102",
+  "95dd42bc-3529-42fa-b98e-f4ab7b5ca172": "D-02268"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02102",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:05:27.222Z"
+  },
+  {
+   "decision_id": "D-02268",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T17:05:27.212Z (A-00729); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T15:29:18.556Z"
+  }
+ ],
+ "actions": [
+  "A-00729"
+ ],
+ "live_page": {
+  "action_id": "A-00729",
+  "dialect": "d4",
+  "published_at": "2026-10-01T15:05:27.212Z",
+  "expires_at": "2026-10-01T17:05:27.212Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "guna-d4",
+   "hada-maloni-d4",
+   "hadi-tiba-d4",
+   "hane-d4",
+   "jate-nerani-d4",
+   "koha-kagite-d4",
+   "loba-d4",
+   "moka-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "radi-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "sugu-rana-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:29:18.526Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02934",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T15:05:26.852Z",
+   "deadline": "2026-10-04T15:05:26.852Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T15:05:26.852Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

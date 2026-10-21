@@ -1,0 +1,149 @@
+{
+ "viewer_id": "U-01487",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T05:05:53.753Z",
+  "deadline": "2026-10-04T05:05:53.753Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "449ec86b-379f-4bc0-96d5-ac1f171906dc": "D-00619",
+  "69e3cc8d-5a74-42a9-b9d2-6a382a250fa2": "D-00620",
+  "6c628a74-4e36-411e-872f-919a2b46123f": "D-02441"
+ },
+ "handled_sessions": {
+  "bd27d17d-2bd0-4733-accf-40708e0deaa7": "D-00619",
+  "98cb2d49-189a-4bdc-9780-0d740e31c9b9": "D-02441"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00619",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T05:05:54.125Z"
+  },
+  {
+   "decision_id": "D-00620",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00619",
+   "published_at": "2026-10-01T05:05:53.837Z"
+  },
+  {
+   "decision_id": "D-02441",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T16:22:01.251Z"
+  },
+  {
+   "decision_id": "D-02442",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T16:22:03.233Z"
+  }
+ ],
+ "actions": [
+  "A-00152",
+  "A-00250",
+  "A-00851"
+ ],
+ "live_page": {
+  "action_id": "A-00851",
+  "dialect": "d1",
+  "published_at": "2026-10-01T16:22:01.241Z",
+  "expires_at": "2026-10-01T18:22:01.241Z",
+  "slugs": [
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhada-bhate-d1",
+   "dhalo-gumo-d1",
+   "dhati-tiniha-d1",
+   "gigi-jachura-d1",
+   "gima-bhadaba-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "labha-d1",
+   "lapa-mogugu-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "palava-raroti-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "raja-badi-d1",
+   "raneya-niba-d1",
+   "rimo-koni-d1",
+   "rina-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:22:03.223Z",
+  "dialect": null
+ },
+ "replans": [
+  {
+   "viewer_id": "U-01487",
+   "at": "2026-10-01T07:00:00.000Z",
+   "reason": "title withdrawn (rava-baya-d1)",
+   "old_goal": null,
+   "new_goal": null,
+   "cancelled_actions": [],
+   "replacement_page": "A-00250"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-01487",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T05:05:53.753Z",
+   "deadline": "2026-10-04T05:05:53.753Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G02": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G02 failed (started 2026-10-01T05:05:53.753Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

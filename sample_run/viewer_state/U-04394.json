@@ -1,0 +1,126 @@
+{
+ "viewer_id": "U-04394",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T13:25:06.189Z",
+  "deadline": "2026-10-04T13:25:06.189Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "radi-d4",
+   "title_id": "T0918",
+   "next_ep": "radi-d4-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "52820f99-6850-430b-8e67-96e06170f670": "D-01690",
+  "92783a03-99ee-4774-a497-f76a528d0cb5": "D-02124"
+ },
+ "handled_sessions": {
+  "0c12c3c1-2b2b-4c6f-8746-de5b086fe1c7": "D-01690",
+  "d4f7f27d-eace-433f-b919-b4dcb8b45bcf": "D-02124"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01690",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T13:25:06.563Z"
+  },
+  {
+   "decision_id": "D-02124",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:06:23.325Z"
+  }
+ ],
+ "actions": [
+  "A-00568",
+  "A-00739"
+ ],
+ "live_page": {
+  "action_id": "A-00739",
+  "dialect": "d4",
+  "published_at": "2026-10-01T15:06:23.315Z",
+  "expires_at": "2026-10-01T17:06:23.315Z",
+  "slugs": [
+   "baguti-gida-d4",
+   "basa-rihalo-d4",
+   "dapi-sari-d4",
+   "daya-d4",
+   "hane-d4",
+   "kasu-piva-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "moka-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "pipati-logu-d4",
+   "radi-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "vapa-kalasa-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:06:23.257Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04394",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T13:25:06.189Z",
+   "deadline": "2026-10-04T13:25:06.189Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T13:25:06.189Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

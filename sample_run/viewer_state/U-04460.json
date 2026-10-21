@@ -1,0 +1,86 @@
+{
+ "viewer_id": "U-04460",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:42:54.597Z",
+  "deadline": "2026-10-04T05:42:54.597Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "kopibha-niya-d1",
+   "title_id": "T0013",
+   "next_ep": "kopibha-niya-d1-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "55e712fa-0e49-47a6-be93-07dccd8075e5": "D-00700"
+ },
+ "handled_sessions": {},
+ "decisions": [
+  {
+   "decision_id": "D-00700",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 562729s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T05:41:12.745Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T05:41:12.735Z",
+  "dialect": null
+ },
+ "replans": [
+  {
+   "viewer_id": "U-04460",
+   "at": "2026-10-01T05:42:54.597Z",
+   "reason": "purchase_completed c9925b9d-0cb0-4093-9585-6109b95b3f10",
+   "old_goal": null,
+   "new_goal": "G07",
+   "cancelled_actions": []
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-04460",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:42:54.597Z",
+   "deadline": "2026-10-04T05:42:54.597Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:42:54.597Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,175 @@
+{
+ "viewer_id": "U-00284",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T08:24:27.438Z",
+  "deadline": "2026-10-04T08:24:27.438Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bagi-baya-d4",
+   "title_id": "T0916",
+   "next_ep": "bagi-baya-d4-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "f6bcb004-a5fb-42dc-a55f-14ccdf041aec": "D-00223",
+  "5222cc9e-c1f1-49e7-b406-4be7c14dd96a": "D-01050",
+  "2a5e85a3-205d-4567-82dd-7f53337c3687": "D-01100",
+  "63b6ad79-1293-40ea-9412-3ed357fa645a": "D-01653",
+  "1b9510c1-61e7-4247-8f27-7010e467d884": "D-01654",
+  "0c090490-4734-4edc-9364-883cd7397005": "D-02306",
+  "54a79a87-1cc0-40bf-9f68-a5a71c398043": "D-02520"
+ },
+ "handled_sessions": {
+  "096276fa-d608-4e97-a056-f83deb2e5dbf": "D-01050",
+  "870ab878-90db-433b-b1af-88fefcbf4be2": "D-01100",
+  "4f34317a-8131-4863-acbe-ac183524305a": "D-01653",
+  "1a9f8477-e670-4670-ad64-aec6df5d65a7": "D-02306",
+  "dae14916-9e70-4bb2-b63b-89d3d4760b2a": "D-02520"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00223",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 663329s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T03:12:27.725Z"
+  },
+  {
+   "decision_id": "D-01050",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T08:24:27.807Z"
+  },
+  {
+   "decision_id": "D-01100",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T10:24:27.797Z (A-00337); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T08:47:26.425Z"
+  },
+  {
+   "decision_id": "D-01653",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T13:09:50.372Z"
+  },
+  {
+   "decision_id": "D-01654",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01653",
+   "published_at": "2026-10-01T13:09:56.200Z"
+  },
+  {
+   "decision_id": "D-02306",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:41:09.287Z"
+  },
+  {
+   "decision_id": "D-02520",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T17:41:09.277Z (A-00804); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:43:27.987Z"
+  }
+ ],
+ "actions": [
+  "A-00337",
+  "A-00555",
+  "A-00804"
+ ],
+ "live_page": {
+  "action_id": "A-00804",
+  "dialect": "d4",
+  "published_at": "2026-10-01T15:41:09.277Z",
+  "expires_at": "2026-10-01T17:41:09.277Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "daya-d4",
+   "gineni-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nava-d4",
+   "netisa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "raja-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:43:27.957Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00284",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T08:24:27.438Z",
+   "deadline": "2026-10-04T08:24:27.438Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T08:24:27.438Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

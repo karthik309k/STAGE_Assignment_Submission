@@ -1,0 +1,112 @@
+{
+ "viewer_id": "U-01771",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T04:48:44.139Z",
+  "deadline": "2026-10-08T04:48:44.139Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T1155"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "b7d680f5-a6e5-4b26-8b16-231bfa85f73a": "D-00590"
+ },
+ "handled_sessions": {
+  "e2bc7502-a192-4680-8428-072eb10ec1de": "D-00590"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00590",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T04:48:44.512Z"
+  }
+ ],
+ "actions": [
+  "A-00140"
+ ],
+ "live_page": {
+  "action_id": "A-00140",
+  "dialect": "d4",
+  "published_at": "2026-10-01T04:48:44.502Z",
+  "expires_at": "2026-10-01T06:48:44.502Z",
+  "slugs": [
+   "baguti-gida-d4",
+   "daya-d4",
+   "gineni-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nava-d4",
+   "netisa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "raja-d4",
+   "ramo-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaka-rachu-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T04:48:44.139Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-01771",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T04:48:44.139Z",
+   "deadline": "2026-10-08T04:48:44.139Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-011799"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G08": 1
+  },
+  "notes": [
+   "G08 succeeded (started 2026-10-01T04:48:44.139Z): keep using"
+  ]
+ },
+ "flags": []
+}

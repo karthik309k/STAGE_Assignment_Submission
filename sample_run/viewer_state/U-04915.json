@@ -1,0 +1,122 @@
+{
+ "viewer_id": "U-04915",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T10:20:34.325Z",
+  "deadline": "2026-10-04T10:20:34.325Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "97fbdf32-0167-4335-a7ff-8d34a6d8fcf0": "D-01296",
+  "056a7fe2-32e8-4ede-b935-5ff1c3ca632f": "D-01597",
+  "3c40b8e7-c508-474b-ad39-cd05fa68a40b": "D-02651"
+ },
+ "handled_sessions": {
+  "4390bc90-c145-4bc1-b3c6-57363939110e": "D-01296",
+  "4b63a15f-ef9b-4db1-81a5-6ae6b0547871": "D-01597",
+  "b65faec9-d23b-40ea-8641-76ed6fdf59b0": "D-02651"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01296",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T10:20:34.695Z"
+  },
+  {
+   "decision_id": "D-01597",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T12:43:47.203Z"
+  },
+  {
+   "decision_id": "D-02651",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T17:24:17.850Z"
+  }
+ ],
+ "actions": [
+  "A-00420",
+  "A-00538",
+  "A-00917"
+ ],
+ "live_page": {
+  "action_id": "A-00917",
+  "dialect": "d1",
+  "published_at": "2026-10-01T17:24:17.839Z",
+  "expires_at": "2026-10-01T19:24:17.839Z",
+  "slugs": [
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gima-bhadaba-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "rina-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:24:17.780Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04915",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T10:20:34.325Z",
+   "deadline": "2026-10-04T10:20:34.325Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-030954"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G02": 1
+  },
+  "notes": [
+   "G02 succeeded (started 2026-10-01T10:20:34.325Z): keep using"
+  ]
+ },
+ "flags": []
+}

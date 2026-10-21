@@ -1,0 +1,121 @@
+{
+ "viewer_id": "U-00398",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G09",
+  "name": "weekly_habit_14d",
+  "started_at": "2026-10-01T06:26:06.864Z",
+  "deadline": "2026-10-15T06:26:06.864Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "on 3 distinct IST days",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'rarely watches' = plays on <= 1 IST day in 14 days, account older than 14 days"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "6e69fb95-6f1d-4942-b084-7b6376511ce6": "D-00791",
+  "5575b0f9-87fa-4083-a92f-3f9ff2ea5f54": "D-01975"
+ },
+ "handled_sessions": {
+  "db996352-5c6c-421d-bbb1-62cf27400c98": "D-00791",
+  "59b5899a-2217-4175-b51a-5dcca7850098": "D-01975"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00791",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T06:26:07.233Z"
+  },
+  {
+   "decision_id": "D-01975",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T14:47:40.671Z"
+  }
+ ],
+ "actions": [
+  "A-00219",
+  "A-00676"
+ ],
+ "live_page": {
+  "action_id": "A-00676",
+  "dialect": "d5",
+  "published_at": "2026-10-01T14:47:40.661Z",
+  "expires_at": "2026-10-01T16:47:40.661Z",
+  "slugs": [
+   "bhama-chunapi-d5",
+   "bhasu-gula-d5",
+   "chuba-d5",
+   "dasa-lonepi-d5",
+   "dhanate-d5",
+   "diti-kochu-d5",
+   "girapa-dala-d5",
+   "gubava-gihaya-d5",
+   "gudha-bati-d5",
+   "guko-lorina-d5",
+   "haya-kani-d5",
+   "jamo-hasa-d5",
+   "kane-kopa-d5",
+   "kova-sako-d5",
+   "loko-madi-d5",
+   "mori-neka-d5",
+   "naniri-teha-d5",
+   "nina-d5",
+   "paba-d5",
+   "pana-mobako-d5",
+   "rigu-d5",
+   "ritina-ropa-d5",
+   "sakopi-d5",
+   "teka-vala-d5",
+   "tero-lava-d5",
+   "vadi-teni-d5",
+   "yaka-naka-d5"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:47:40.603Z",
+  "dialect": "d5"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00398",
+   "arm": "agent",
+   "goal_id": "G09",
+   "started_at": "2026-10-01T06:26:06.864Z",
+   "deadline": "2026-10-15T06:26:06.864Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G09": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G09 failed (started 2026-10-01T06:26:06.864Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

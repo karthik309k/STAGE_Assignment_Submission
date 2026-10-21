@@ -1,0 +1,125 @@
+{
+ "viewer_id": "U-02044",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T05:37:32.554Z",
+  "deadline": "2026-10-04T05:37:32.554Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "labha-d1",
+   "title_id": "T0034",
+   "next_ep": "labha-d1-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "df1ec962-b151-4d09-9572-7fe7ffe4bb2e": "D-00693"
+ },
+ "handled_sessions": {
+  "b1764f95-10c8-42dd-aaa5-17bd7d67f851": "D-00693"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00693",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T05:37:32.925Z"
+  }
+ ],
+ "actions": [
+  "A-00177",
+  "A-00252"
+ ],
+ "live_page": {
+  "action_id": "A-00252",
+  "dialect": "d1",
+  "published_at": "2026-10-01T05:37:32.915Z",
+  "expires_at": "2026-10-01T07:37:32.915Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "chuya-nasuya-d1",
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhada-bhate-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gigi-jachura-d1",
+   "gima-bhadaba-d1",
+   "hala-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "koha-tena-d1",
+   "kone-jaja-d1",
+   "labha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "ripiha-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T05:37:32.554Z",
+  "dialect": "d1"
+ },
+ "replans": [
+  {
+   "viewer_id": "U-02044",
+   "at": "2026-10-01T07:00:00.000Z",
+   "reason": "title withdrawn (rava-baya-d1)",
+   "old_goal": null,
+   "new_goal": null,
+   "cancelled_actions": [],
+   "replacement_page": "A-00252"
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-02044",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T05:37:32.554Z",
+   "deadline": "2026-10-04T05:37:32.554Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T05:37:32.554Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

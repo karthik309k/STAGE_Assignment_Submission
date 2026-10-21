@@ -1,0 +1,102 @@
+{
+ "viewer_id": "U-03347",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T17:12:12.422Z",
+  "deadline": "2026-10-08T17:12:12.422Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "c470c9d0-0074-482c-9998-571744196e49": "D-02616"
+ },
+ "handled_sessions": {
+  "f348966a-3be3-4c4e-a339-26e6938e85ed": "D-02616"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02616",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T17:12:12.790Z"
+  },
+  {
+   "decision_id": "D-02632",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T17:17:41.303Z"
+  }
+ ],
+ "actions": [
+  "A-00908"
+ ],
+ "live_page": {
+  "action_id": "A-00908",
+  "dialect": "d3",
+  "published_at": "2026-10-01T17:12:12.780Z",
+  "expires_at": "2026-10-01T19:12:12.780Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:17:41.293Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03347",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T17:12:12.422Z",
+   "deadline": "2026-10-08T17:12:12.422Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-021164"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G12": 1
+  },
+  "notes": [
+   "G12 succeeded (started 2026-10-01T17:12:12.422Z): keep using"
+  ]
+ },
+ "flags": []
+}

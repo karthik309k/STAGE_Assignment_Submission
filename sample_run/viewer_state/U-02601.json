@@ -1,0 +1,57 @@
+{
+ "viewer_id": "U-02601",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "68a896fe-f4dc-493f-9f93-749893656e83": "D-00617",
+  "5f583886-8d0c-483a-b02f-4c78923ca5e0": "D-00618",
+  "b809475b-8591-4d90-8ba8-727356d9f61b": "D-01093"
+ },
+ "handled_sessions": {
+  "5d7a0cb0-ca19-430c-b9ab-a688b9472066": "D-00617",
+  "022b3d5a-113c-4765-ae7a-93036fbb5cc9": "D-01093"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00617",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting None is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T05:05:37.487Z"
+  },
+  {
+   "decision_id": "D-00618",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00617",
+   "published_at": "2026-10-01T05:05:42.456Z"
+  },
+  {
+   "decision_id": "D-01093",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'd7' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T08:44:18.400Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T08:44:18.370Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

@@ -1,0 +1,108 @@
+{
+ "viewer_id": "U-00903",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G08",
+  "name": "try_new_release_7d",
+  "started_at": "2026-10-01T00:44:00.335Z",
+  "deadline": "2026-10-08T00:44:00.335Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "a title released in the 30 days before the goal start",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "title_id": "T0905"
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "39cff869-21fc-43f1-aa9b-2d941c365a1a": "D-00090",
+  "2adf400f-1037-4068-adcc-e22ce1bdd6ed": "D-00665"
+ },
+ "handled_sessions": {
+  "154ccd69-5a8b-48df-9638-4960bd48a5a7": "D-00090",
+  "d26a3871-cc38-4cc0-bb87-93550f62b961": "D-00665"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00090",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T00:44:00.701Z"
+  },
+  {
+   "decision_id": "D-00665",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G08",
+   "reason": null,
+   "published_at": "2026-10-01T05:25:49.333Z"
+  }
+ ],
+ "actions": [
+  "A-00036",
+  "A-00168"
+ ],
+ "live_page": {
+  "action_id": "A-00168",
+  "dialect": "d3",
+  "published_at": "2026-10-01T05:25:49.323Z",
+  "expires_at": "2026-10-01T07:25:49.323Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T05:25:49.264Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00903",
+   "arm": "agent",
+   "goal_id": "G08",
+   "started_at": "2026-10-01T00:44:00.335Z",
+   "deadline": "2026-10-08T00:44:00.335Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-006045"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G08": 1
+  },
+  "notes": [
+   "G08 succeeded (started 2026-10-01T00:44:00.335Z): keep using"
+  ]
+ },
+ "flags": []
+}

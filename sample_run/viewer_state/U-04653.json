@@ -1,0 +1,119 @@
+{
+ "viewer_id": "U-04653",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G09",
+  "name": "weekly_habit_14d",
+  "started_at": "2026-10-01T04:40:32.755Z",
+  "deadline": "2026-10-15T04:40:32.755Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "on 3 distinct IST days",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'rarely watches' = plays on <= 1 IST day in 14 days, account older than 14 days"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "897ad0eb-b51b-403e-880c-b3c4362c6294": "D-00353",
+  "0d983431-3cbc-4472-8925-27971eb9115f": "D-00459"
+ },
+ "handled_sessions": {
+  "043781e7-27b7-4bbd-90a0-c4be8045068e": "D-00353"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00353",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T04:40:33.123Z"
+  },
+  {
+   "decision_id": "D-00459",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 611911s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:46:10.306Z"
+  }
+ ],
+ "actions": [
+  "A-00134"
+ ],
+ "live_page": {
+  "action_id": "A-00134",
+  "dialect": "d4",
+  "published_at": "2026-10-01T04:40:33.113Z",
+  "expires_at": "2026-10-01T06:40:33.113Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "guna-d4",
+   "hada-maloni-d4",
+   "hadi-tiba-d4",
+   "hane-d4",
+   "jate-nerani-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "moka-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "radi-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "sugu-rana-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaka-rachu-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T04:46:10.296Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04653",
+   "arm": "agent",
+   "goal_id": "G09",
+   "started_at": "2026-10-01T04:40:32.755Z",
+   "deadline": "2026-10-15T04:40:32.755Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G09": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G09 failed (started 2026-10-01T04:40:32.755Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

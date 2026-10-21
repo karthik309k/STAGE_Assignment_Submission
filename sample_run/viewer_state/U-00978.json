@@ -1,0 +1,100 @@
+{
+ "viewer_id": "U-00978",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G02",
+  "name": "first_full_episode_3d",
+  "started_at": "2026-10-01T17:58:56.246Z",
+  "deadline": "2026-10-04T17:58:56.246Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "episode_completed",
+   "condition": "any episode",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "eb31e083-2c3f-4d28-9c29-651d01c13f95": "D-02726"
+ },
+ "handled_sessions": {
+  "566ed5eb-56f6-4359-baf4-d90666ce7bea": "D-02726"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02726",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G02",
+   "reason": null,
+   "published_at": "2026-10-01T17:58:56.615Z"
+  }
+ ],
+ "actions": [
+  "A-00939"
+ ],
+ "live_page": {
+  "action_id": "A-00939",
+  "dialect": "d1",
+  "published_at": "2026-10-01T17:58:56.605Z",
+  "expires_at": "2026-10-01T19:58:56.605Z",
+  "slugs": [
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhati-tiniha-d1",
+   "gima-bhadaba-d1",
+   "gune-halo-d1",
+   "hapibha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "nini-namoko-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "rina-d1",
+   "temopi-bala-d1",
+   "tiya-bhamaro-d1",
+   "vapi-mara-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:58:56.246Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00978",
+   "arm": "agent",
+   "goal_id": "G02",
+   "started_at": "2026-10-01T17:58:56.246Z",
+   "deadline": "2026-10-04T17:58:56.246Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-006624"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G02": 1
+  },
+  "notes": [
+   "G02 succeeded (started 2026-10-01T17:58:56.246Z): keep using"
+  ]
+ },
+ "flags": []
+}

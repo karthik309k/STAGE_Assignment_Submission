@@ -1,0 +1,125 @@
+{
+ "viewer_id": "U-03164",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G06",
+  "name": "reactivate_lapsed_14d",
+  "started_at": "2026-10-01T15:06:24.830Z",
+  "deadline": "2026-10-15T15:06:24.830Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "any paid plan",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'recently lapsed' interpreted as a lapse event within 30 days"
+  ],
+  "message_planned": true
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "52ce661c-7e1b-4930-804b-2b1b485d4196": "D-00524",
+  "8e508d20-5a60-4f3b-a9f3-7d8bd710aced": "D-02125"
+ },
+ "handled_sessions": {
+  "319d89b0-62cd-4c0c-9a3a-ba45221581df": "D-02125"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00524",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 55370s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:47:10.264Z"
+  },
+  {
+   "decision_id": "D-02125",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T15:06:25.199Z"
+  }
+ ],
+ "actions": [
+  "A-00740",
+  "A-00741"
+ ],
+ "live_page": {
+  "action_id": "A-00740",
+  "dialect": "d4",
+  "published_at": "2026-10-01T15:06:25.189Z",
+  "expires_at": "2026-10-01T17:06:25.189Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "basa-rihalo-d4",
+   "chulote-mona-d4",
+   "dapi-sari-d4",
+   "daya-d4",
+   "hada-maloni-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "mariba-nisara-d4",
+   "moka-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "pipati-logu-d4",
+   "radi-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [
+  "A-00741"
+ ],
+ "message_ledger": {
+  "2026-10-02": "A-00741"
+ },
+ "facts_summary": {
+  "as_of": "2026-10-01T15:06:24.830Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03164",
+   "arm": "agent",
+   "goal_id": "G06",
+   "started_at": "2026-10-01T15:06:24.830Z",
+   "deadline": "2026-10-15T15:06:24.830Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G06": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G06 failed (started 2026-10-01T15:06:24.830Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

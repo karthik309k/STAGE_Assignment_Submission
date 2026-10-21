@@ -1,0 +1,124 @@
+{
+ "viewer_id": "U-02237",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G06",
+  "name": "reactivate_lapsed_14d",
+  "started_at": "2026-10-01T12:01:49.839Z",
+  "deadline": "2026-10-15T12:01:49.839Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "any paid plan",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'recently lapsed' interpreted as a lapse event within 30 days"
+  ],
+  "message_planned": true
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "dbf983b6-b22b-4bd0-a881-c84ef0652cb3": "D-01514",
+  "e74fec09-17b9-432b-8f18-fe849689b8c9": "D-01629"
+ },
+ "handled_sessions": {
+  "5f621988-5d77-4de4-936d-a0c34e6788d5": "D-01514",
+  "93957fd3-a9cf-4378-b1ed-d24c71392da7": "D-01629"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01514",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T12:01:50.208Z"
+  },
+  {
+   "decision_id": "D-01629",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T14:01:50.197Z (A-00504); no_message: one outreach per goal already made",
+   "published_at": "2026-10-01T12:58:57.812Z"
+  }
+ ],
+ "actions": [
+  "A-00504",
+  "A-00505"
+ ],
+ "live_page": {
+  "action_id": "A-00504",
+  "dialect": "d6",
+  "published_at": "2026-10-01T12:01:50.197Z",
+  "expires_at": "2026-10-01T14:01:50.197Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "gila-suha-d6",
+   "hari-d6",
+   "jama-d6",
+   "kada-gilo-d6",
+   "kaka-d6",
+   "kaka-niyabha-d6",
+   "lona-telaba-d6",
+   "loyate-d6",
+   "momaka-logi-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "nasachu-dhapa-d6",
+   "nini-vagini-d6",
+   "piri-jama-d6",
+   "rako-pati-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "vasuka-dhanite-d6",
+   "yagi-dagi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {
+  "2026-10-01": "A-00505"
+ },
+ "facts_summary": {
+  "as_of": "2026-10-01T12:58:57.782Z",
+  "dialect": "d6"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02237",
+   "arm": "agent",
+   "goal_id": "G06",
+   "started_at": "2026-10-01T12:01:49.839Z",
+   "deadline": "2026-10-15T12:01:49.839Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G06": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G06 failed (started 2026-10-01T12:01:49.839Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

@@ -1,0 +1,114 @@
+{
+ "viewer_id": "U-04064",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G06",
+  "name": "reactivate_lapsed_14d",
+  "started_at": "2026-10-01T12:20:29.799Z",
+  "deadline": "2026-10-15T12:20:29.799Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "any paid plan",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'recently lapsed' interpreted as a lapse event within 30 days"
+  ],
+  "message_planned": true
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "2db640dc-c5e3-406f-8f4d-bfc1e4ba06a3": "D-01551"
+ },
+ "handled_sessions": {
+  "7d1921ba-1c5d-4016-8078-0c1097f008bd": "D-01551"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01551",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G06",
+   "reason": null,
+   "published_at": "2026-10-01T12:20:30.169Z"
+  }
+ ],
+ "actions": [
+  "A-00517",
+  "A-00518"
+ ],
+ "live_page": {
+  "action_id": "A-00517",
+  "dialect": "d4",
+  "published_at": "2026-10-01T12:20:30.159Z",
+  "expires_at": "2026-10-01T14:20:30.159Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "dapi-sari-d4",
+   "guna-d4",
+   "hada-maloni-d4",
+   "hadi-tiba-d4",
+   "jate-nerani-d4",
+   "koha-kagite-d4",
+   "loba-d4",
+   "moka-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "sugu-rana-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "yaha-nava-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {
+  "2026-10-01": "A-00518"
+ },
+ "facts_summary": {
+  "as_of": "2026-10-01T12:20:29.799Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04064",
+   "arm": "agent",
+   "goal_id": "G06",
+   "started_at": "2026-10-01T12:20:29.799Z",
+   "deadline": "2026-10-15T12:20:29.799Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G06": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G06 failed (started 2026-10-01T12:20:29.799Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

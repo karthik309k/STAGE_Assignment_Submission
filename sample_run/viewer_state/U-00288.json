@@ -1,0 +1,98 @@
+{
+ "viewer_id": "U-00288",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G05",
+  "name": "first_paid_7d",
+  "started_at": "2026-10-01T08:00:02.565Z",
+  "deadline": "2026-10-08T08:00:02.565Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "purchase_completed",
+   "condition": "is_trial = false",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {
+   "intent": false
+  },
+  "assumptions": []
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "5cfeaf30-eb9a-444d-a609-3a5a01cd3120": "D-00992"
+ },
+ "handled_sessions": {
+  "e64d2ce6-aa12-4719-b452-34bca0860153": "D-00992"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00992",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T08:00:02.931Z"
+  }
+ ],
+ "actions": [
+  "A-00312"
+ ],
+ "live_page": {
+  "action_id": "A-00312",
+  "dialect": "d6",
+  "published_at": "2026-10-01T08:00:02.921Z",
+  "expires_at": "2026-10-01T10:00:02.921Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "hari-d6",
+   "loyate-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "piri-jama-d6",
+   "rasuya-moni-d6",
+   "sajachu-jabha-d6",
+   "sane-tisu-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T08:00:02.565Z",
+  "dialect": "d6"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00288",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T08:00:02.565Z",
+   "deadline": "2026-10-08T08:00:02.565Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G05": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G05 failed (started 2026-10-01T08:00:02.565Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

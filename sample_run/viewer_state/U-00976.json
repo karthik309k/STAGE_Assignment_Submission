@@ -1,0 +1,118 @@
+{
+ "viewer_id": "U-00976",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T11:38:18.667Z",
+  "deadline": "2026-10-04T11:38:18.667Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "bhaja-moguba-d2",
+   "title_id": "T0524",
+   "next_ep": "bhaja-moguba-d2-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "a853ef71-4c51-4171-8b65-a805d654bf07": "D-01444"
+ },
+ "handled_sessions": {
+  "8f9202e8-1221-43e2-a63b-27002a3670e1": "D-01444"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01444",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T11:38:19.040Z"
+  }
+ ],
+ "actions": [
+  "A-00480"
+ ],
+ "live_page": {
+  "action_id": "A-00480",
+  "dialect": "d2",
+  "published_at": "2026-10-01T11:38:19.030Z",
+  "expires_at": "2026-10-01T13:38:19.030Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "dichupi-niha-d2",
+   "dira-kova-d2",
+   "giba-hane-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "gudha-masamo-d2",
+   "guneba-guba-d2",
+   "kolani-mari-d2",
+   "maya-d2",
+   "molo-d2",
+   "mopi-vasuva-d2",
+   "neba-d2",
+   "neya-kadhana-d2",
+   "nipi-maniba-d2",
+   "paka-d2",
+   "piropa-moguti-d2",
+   "piya-moha-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "tela-sagi-d2",
+   "tero-koja-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T11:38:18.667Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00976",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T11:38:18.667Z",
+   "deadline": "2026-10-04T11:38:18.667Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T11:38:18.667Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

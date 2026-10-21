@@ -1,0 +1,135 @@
+{
+ "viewer_id": "U-02942",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T10:08:56.182Z",
+  "deadline": "2026-10-04T10:08:56.182Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "pila-robha-d4",
+   "title_id": "T1817",
+   "next_ep": "pila-robha-d4-s1e1",
+   "next_ep_no": 1
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "adf64b0e-7f29-42a1-b1af-51fb864f2d4d": "D-01270",
+  "fbd6b6a7-4c12-446e-88b4-33bc174825ca": "D-01481",
+  "103766da-15dc-422d-adad-8a37260e8b8b": "D-02055"
+ },
+ "handled_sessions": {
+  "2565553a-1c88-4f8a-b60d-912bc0565b9b": "D-01270",
+  "430d8319-6d07-4a6b-be18-73f45bf78a04": "D-02055"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01270",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T10:08:56.558Z"
+  },
+  {
+   "decision_id": "D-01481",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 48371s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T11:52:02.416Z"
+  },
+  {
+   "decision_id": "D-02055",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:02:23.179Z"
+  }
+ ],
+ "actions": [
+  "A-00411",
+  "A-00710"
+ ],
+ "live_page": {
+  "action_id": "A-00710",
+  "dialect": "d4",
+  "published_at": "2026-10-01T15:02:23.169Z",
+  "expires_at": "2026-10-01T17:02:23.169Z",
+  "slugs": [
+   "baguti-gida-d4",
+   "bhadha-gudapa-d4",
+   "chuma-daja-d4",
+   "dapi-sari-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "naparo-chupi-d4",
+   "nisu-sapapa-d4",
+   "pila-robha-d4",
+   "radi-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "subha-gumo-d4",
+   "suha-d4",
+   "tegu-kote-d4",
+   "teroko-padha-d4",
+   "tiko-subava-d4",
+   "vadi-d4",
+   "vapa-kalasa-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:02:23.110Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02942",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T10:08:56.182Z",
+   "deadline": "2026-10-04T10:08:56.182Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T10:08:56.182Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

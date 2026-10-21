@@ -1,0 +1,101 @@
+{
+ "viewer_id": "U-02198",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G01",
+  "name": "first_play_24h",
+  "started_at": "2026-10-01T14:26:35.856Z",
+  "deadline": "2026-10-02T14:26:35.856Z",
+  "window_hours": 24,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 24
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "all of the viewer's events are in the pack (signup is inside the event window)"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "818fa42a-7649-4369-ad39-4e3dd777e33e": "D-01899",
+  "0d1fe6f4-f146-4a08-87b8-e465a5e97b89": "D-01900"
+ },
+ "handled_sessions": {
+  "35d601dc-355b-4986-b396-9934cf6354ca": "D-01899"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01899",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G01",
+   "reason": null,
+   "published_at": "2026-10-01T14:26:36.222Z"
+  },
+  {
+   "decision_id": "D-01900",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-01899",
+   "published_at": "2026-10-01T14:26:38.282Z"
+  }
+ ],
+ "actions": [
+  "A-00643"
+ ],
+ "live_page": {
+  "action_id": "A-00643",
+  "dialect": "d3",
+  "published_at": "2026-10-01T14:26:36.212Z",
+  "expires_at": "2026-10-01T16:26:36.212Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T14:26:38.272Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-02198",
+   "arm": "agent",
+   "goal_id": "G01",
+   "started_at": "2026-10-01T14:26:35.856Z",
+   "deadline": "2026-10-02T14:26:35.856Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G01": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G01 failed (started 2026-10-01T14:26:35.856Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

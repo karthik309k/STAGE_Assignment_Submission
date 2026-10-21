@@ -1,0 +1,160 @@
+{
+ "viewer_id": "U-02656",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G09",
+  "name": "weekly_habit_14d",
+  "started_at": "2026-10-01T08:13:40.026Z",
+  "deadline": "2026-10-15T08:13:40.026Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "on 3 distinct IST days",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'rarely watches' = plays on <= 1 IST day in 14 days, account older than 14 days"
+  ]
+ },
+ "goal_history": [
+  {
+   "goal_id": "G05",
+   "name": "first_paid_7d",
+   "started_at": "2026-10-01T08:11:34.583Z",
+   "deadline": "2026-10-08T08:11:34.583Z",
+   "window_hours": 168,
+   "rule_version": "v1",
+   "success": {
+    "event": "purchase_completed",
+    "condition": "is_trial = false",
+    "window_hours": 168
+   },
+   "status": "closed",
+   "context": {
+    "intent": false
+   },
+   "assumptions": [],
+   "closed_reason": "success_observed: purchase",
+   "closed_at": "2026-10-01T08:13:40.026Z",
+   "closing_evidence": [
+    "event:13c98f16-8cb5-44fa-aa71-656d9cb739f6"
+   ]
+  }
+ ],
+ "processed_triggers": {
+  "ca00ea92-aea5-44ff-9f1b-e747c1868a74": "D-01021",
+  "05a681df-015b-4852-87b3-db119103d6d3": "D-01090"
+ },
+ "handled_sessions": {
+  "4991aa40-5240-4229-bedf-767fe803408d": "D-01021",
+  "11e3118c-dd19-4f7a-8ab1-ac8f5196a053": "D-01090"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01021",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G05",
+   "reason": null,
+   "published_at": "2026-10-01T08:11:34.950Z"
+  },
+  {
+   "decision_id": "D-01090",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T10:11:34.940Z (A-00322); no_message: goal G09 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T08:42:17.484Z"
+  }
+ ],
+ "actions": [
+  "A-00322"
+ ],
+ "live_page": {
+  "action_id": "A-00322",
+  "dialect": "d6",
+  "published_at": "2026-10-01T08:11:34.940Z",
+  "expires_at": "2026-10-01T10:11:34.940Z",
+  "slugs": [
+   "bhari-vagi-d6",
+   "chupi-gugi-d6",
+   "dhachu-rogi-d6",
+   "hari-d6",
+   "loyate-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "piri-jama-d6",
+   "rasuya-moni-d6",
+   "sajachu-jabha-d6",
+   "sane-tisu-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T08:42:17.454Z",
+  "dialect": "d6"
+ },
+ "replans": [
+  {
+   "viewer_id": "U-02656",
+   "at": "2026-10-01T08:13:40.026Z",
+   "reason": "purchase_completed 13c98f16-8cb5-44fa-aa71-656d9cb739f6",
+   "old_goal": "G05",
+   "new_goal": "G09",
+   "cancelled_actions": []
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-02656",
+   "arm": "agent",
+   "goal_id": "G05",
+   "started_at": "2026-10-01T08:11:34.583Z",
+   "deadline": "2026-10-08T08:11:34.583Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": "success_observed: purchase",
+   "status": "succeeded",
+   "evidence": [
+    "event:13c98f16-8cb5-44fa-aa71-656d9cb739f6"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  },
+  {
+   "viewer_id": "U-02656",
+   "arm": "agent",
+   "goal_id": "G09",
+   "started_at": "2026-10-01T08:13:40.026Z",
+   "deadline": "2026-10-15T08:13:40.026Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G09": 1
+  },
+  "goal_successes": {
+   "G05": 1
+  },
+  "notes": [
+   "G05 succeeded (started 2026-10-01T08:11:34.583Z): keep using",
+   "G09 failed (started 2026-10-01T08:13:40.026Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

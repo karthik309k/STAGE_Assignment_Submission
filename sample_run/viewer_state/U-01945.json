@@ -1,0 +1,48 @@
+{
+ "viewer_id": "U-01945",
+ "arm": "holdout",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "cfafa9fa-b2d1-4df9-b4d4-ae8f9f9b8b87": "D-01356",
+  "8a8c862b-6633-41c1-a5d6-d4b003e80642": "D-02554"
+ },
+ "handled_sessions": {
+  "30c16e54-3142-4b87-a4ab-657108111d42": "D-01356",
+  "a06c4193-6b19-4c9a-97cc-15e3777900ef": "D-02554"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01356",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T10:49:52.436Z"
+  },
+  {
+   "decision_id": "D-02554",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "holdout arm: no agent action of any kind",
+   "published_at": "2026-10-01T16:52:39.381Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:52:39.369Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

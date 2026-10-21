@@ -1,0 +1,111 @@
+{
+ "viewer_id": "U-03356",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G09",
+  "name": "weekly_habit_14d",
+  "started_at": "2026-10-01T10:47:08.587Z",
+  "deadline": "2026-10-15T10:47:08.587Z",
+  "window_hours": 336,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "on 3 distinct IST days",
+   "window_hours": 336
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "'rarely watches' = plays on <= 1 IST day in 14 days, account older than 14 days"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "a66047bb-1c80-452a-9fa4-2cd2978114ed": "D-01338",
+  "5c3c87ea-40d6-439c-a38d-484b22ab51e6": "D-01447"
+ },
+ "handled_sessions": {
+  "9e573c17-d707-460a-92e1-2d4208e6a0d4": "D-01338",
+  "51503ae3-6cd0-4e16-95e6-00ddaf0ce36b": "D-01447"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01338",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no eligible measurable goal with supporting evidence: G01: not signed up within 7 days (or signup unknown); G02: cannot prove 'never completed an episode' without the viewer's full history; G03: not signed up within 2 days (or signup unknown); G04: subscription_status=lapsed, not trial_active",
+   "published_at": "2026-10-01T10:44:58.757Z"
+  },
+  {
+   "decision_id": "D-01447",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G09",
+   "reason": null,
+   "published_at": "2026-10-01T11:40:07.274Z"
+  }
+ ],
+ "actions": [
+  "A-00483"
+ ],
+ "live_page": {
+  "action_id": "A-00483",
+  "dialect": "d3",
+  "published_at": "2026-10-01T11:40:07.264Z",
+  "expires_at": "2026-10-01T13:40:07.264Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T11:40:07.207Z",
+  "dialect": "d3"
+ },
+ "replans": [
+  {
+   "viewer_id": "U-03356",
+   "at": "2026-10-01T10:47:08.587Z",
+   "reason": "purchase_completed 536b67ae-0686-4c52-bfe5-b833b8897883",
+   "old_goal": null,
+   "new_goal": "G09",
+   "cancelled_actions": []
+  }
+ ],
+ "outcomes": [
+  {
+   "viewer_id": "U-03356",
+   "arm": "agent",
+   "goal_id": "G09",
+   "started_at": "2026-10-01T10:47:08.587Z",
+   "deadline": "2026-10-15T10:47:08.587Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G09": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G09 failed (started 2026-10-01T10:47:08.587Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

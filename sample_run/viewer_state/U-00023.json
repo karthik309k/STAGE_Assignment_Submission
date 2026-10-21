@@ -1,0 +1,121 @@
+{
+ "viewer_id": "U-00023",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T02:12:27.469Z",
+  "deadline": "2026-10-04T02:12:27.469Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "lomobha-moni-d3",
+   "title_id": "T0908",
+   "next_ep": "lomobha-moni-d3-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "43fe95f1-fe37-4176-9f63-898e3d0d0a33": "D-00148",
+  "ab6a9f48-8f9f-440f-b528-f606695ab644": "D-00149",
+  "6750b3a3-f964-41f0-b0a4-eccab78a91f7": "D-02149"
+ },
+ "handled_sessions": {
+  "a8d07a00-7ea4-4be2-b2c3-9300a1e6057c": "D-00148",
+  "1e156c9c-1dcd-4fde-b793-61f93f510e47": "D-02149"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00148",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T02:12:27.834Z"
+  },
+  {
+   "decision_id": "D-00149",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "session already handled by D-00148",
+   "published_at": "2026-10-01T02:12:33.590Z"
+  },
+  {
+   "decision_id": "D-02149",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:08:06.766Z"
+  }
+ ],
+ "actions": [
+  "A-00059",
+  "A-00745"
+ ],
+ "live_page": {
+  "action_id": "A-00745",
+  "dialect": "d3",
+  "published_at": "2026-10-01T15:08:06.755Z",
+  "expires_at": "2026-10-01T17:08:06.755Z",
+  "slugs": [
+   "digi-mone-d3",
+   "haja-d3",
+   "jakasa-dapi-d3",
+   "lomobha-moni-d3",
+   "pate-kari-d3",
+   "pima-pana-d3",
+   "rate-java-d3",
+   "ririgi-d3",
+   "sane-d3",
+   "tepa-lagi-d3",
+   "yadha-kopa-d3",
+   "yane-tegi-d3",
+   "yatite-roloda-d3"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:08:06.699Z",
+  "dialect": "d3"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00023",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T02:12:27.469Z",
+   "deadline": "2026-10-04T02:12:27.469Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T02:12:27.469Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

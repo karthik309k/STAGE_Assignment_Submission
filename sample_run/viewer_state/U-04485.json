@@ -1,0 +1,48 @@
+{
+ "viewer_id": "U-04485",
+ "arm": "agent",
+ "active_goal": null,
+ "goal_history": [],
+ "processed_triggers": {
+  "e28affd3-fbc8-4317-b80c-ea9b3d4984ea": "D-00219",
+  "af8add3f-65f5-499b-a8fd-a8cf87cb4bf7": "D-01221"
+ },
+ "handled_sessions": {
+  "530eccda-a8e1-4bfe-ab09-c4bc07ec67a8": "D-00219",
+  "b1b1ee34-8998-4b49-a2ad-bd82afbc0c4e": "D-01221"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00219",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'd7' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T03:10:32.699Z"
+  },
+  {
+   "decision_id": "D-01221",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "no valid dialect: app setting 'd7' is not one of d1-d6, so no page can be requested and no content can be named",
+   "published_at": "2026-10-01T09:41:11.301Z"
+  }
+ ],
+ "actions": [],
+ "live_page": null,
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T09:41:11.271Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {},
+  "notes": []
+ },
+ "flags": []
+}

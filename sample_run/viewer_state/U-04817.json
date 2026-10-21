@@ -1,0 +1,136 @@
+{
+ "viewer_id": "U-04817",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T13:23:06.219Z",
+  "deadline": "2026-10-04T13:23:06.219Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "labha-d1",
+   "title_id": "T0034",
+   "next_ep": "labha-d1-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "61a35067-8350-4d13-9da5-f93aa8b9f882": "D-01685",
+  "3502a6c3-94cb-4f83-b99e-4248b56a7095": "D-02244",
+  "36d5355b-8c6b-442a-8d81-ef916ed35f0d": "D-02498"
+ },
+ "handled_sessions": {
+  "a6226b22-bdd7-4149-be40-f58057a25dd2": "D-01685",
+  "a183a5c2-d4f6-4812-923d-95592bf4adf9": "D-02244",
+  "5c991468-39bd-4662-82a7-ee92ed86b826": "D-02498"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-01685",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T13:23:06.590Z"
+  },
+  {
+   "decision_id": "D-02244",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:23:43.792Z"
+  },
+  {
+   "decision_id": "D-02498",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T17:23:43.782Z (A-00779); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T16:38:03.366Z"
+  }
+ ],
+ "actions": [
+  "A-00566",
+  "A-00779"
+ ],
+ "live_page": {
+  "action_id": "A-00779",
+  "dialect": "d1",
+  "published_at": "2026-10-01T15:23:43.782Z",
+  "expires_at": "2026-10-01T17:23:43.782Z",
+  "slugs": [
+   "bagugu-gigupi-d1",
+   "chuya-nasuya-d1",
+   "dapa-pini-d1",
+   "dati-lako-d1",
+   "dhada-bhate-d1",
+   "dhati-tiniha-d1",
+   "gidha-sudhako-d1",
+   "gigi-jachura-d1",
+   "gima-bhadaba-d1",
+   "hala-d1",
+   "hapibha-d1",
+   "hate-d1",
+   "koha-tena-d1",
+   "kone-jaja-d1",
+   "kopibha-niya-d1",
+   "labha-d1",
+   "moya-lana-d1",
+   "nalochu-dhajala-d1",
+   "patena-d1",
+   "ragi-guna-d1",
+   "raloja-d1",
+   "ripiha-d1",
+   "roti-d1",
+   "salosa-valo-d1",
+   "temopi-bala-d1",
+   "tidha-dakachu-d1",
+   "tiya-bhamaro-d1"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:38:03.336Z",
+  "dialect": "d1"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04817",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T13:23:06.219Z",
+   "deadline": "2026-10-04T13:23:06.219Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T13:23:06.219Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

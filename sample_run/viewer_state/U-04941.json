@@ -1,0 +1,124 @@
+{
+ "viewer_id": "U-04941",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T15:28:14.462Z",
+  "deadline": "2026-10-04T15:28:14.462Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "molo-d2",
+   "title_id": "T0521",
+   "next_ep": "molo-d2-s1e3",
+   "next_ep_no": 3
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "678793c9-0225-4a41-ba58-9787db703857": "D-00317",
+  "a20c5000-e4ac-45fc-b4ee-a2633bef00e7": "D-02262"
+ },
+ "handled_sessions": {
+  "0a7941bd-a27e-4afc-9340-244b971eca50": "D-02262"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00317",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "stale trigger: event is 164769s old by phone clock (offline-buffered); not a live session, so no home page or message is warranted",
+   "published_at": "2026-10-01T04:21:04.336Z"
+  },
+  {
+   "decision_id": "D-02262",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T15:28:14.836Z"
+  }
+ ],
+ "actions": [
+  "A-00785"
+ ],
+ "live_page": {
+  "action_id": "A-00785",
+  "dialect": "d2",
+  "published_at": "2026-10-01T15:28:14.826Z",
+  "expires_at": "2026-10-01T17:28:14.826Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bapari-habagu-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gibha-bhalomo-d2",
+   "gidi-chudi-d2",
+   "ginava-chusu-d2",
+   "gisu-d2",
+   "guneba-guba-d2",
+   "maya-d2",
+   "molo-d2",
+   "momo-tibaro-d2",
+   "mopi-vasuva-d2",
+   "neya-kadhana-d2",
+   "nipi-maniba-d2",
+   "pirima-d2",
+   "rigu-dhadi-d2",
+   "ritisa-guti-d2",
+   "riya-d2",
+   "sadha-d2",
+   "tero-koja-d2",
+   "tidisa-teva-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:28:14.462Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-04941",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T15:28:14.462Z",
+   "deadline": "2026-10-04T15:28:14.462Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T15:28:14.462Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

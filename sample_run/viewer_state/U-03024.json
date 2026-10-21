@@ -1,0 +1,157 @@
+{
+ "viewer_id": "U-03024",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T04:55:07.876Z",
+  "deadline": "2026-10-04T04:55:07.876Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "baguti-gida-d4",
+   "title_id": "T0925",
+   "next_ep": "baguti-gida-d4-s1e2",
+   "next_ep_no": 2
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "fa47909f-afa7-4567-a80b-bacd14820490": "D-00594",
+  "0e986ebe-8f3d-48c7-9c3c-0869e4d90637": "D-01857",
+  "57975425-7d97-434c-bf26-954fcb006188": "D-02181",
+  "b1d59703-dc6f-4dfe-8708-7855c4cfc96f": "D-02246",
+  "395f2874-e493-4b9d-8166-5681630ea6d6": "D-02428"
+ },
+ "handled_sessions": {
+  "3c5b9e87-3e62-4ee1-93e7-4690cad80444": "D-00594",
+  "2df6a139-ff5e-44c8-995a-17dea9f18d44": "D-01857",
+  "bc35fbc7-7513-42f7-8105-d72837ff911b": "D-02181",
+  "4cf9b176-ff87-4c72-b1af-fe9d2ed7e65c": "D-02246",
+  "3120d34c-e2d7-4a28-af75-b392d7d44263": "D-02428"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-00594",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T04:55:08.245Z"
+  },
+  {
+   "decision_id": "D-01857",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T14:16:29.029Z"
+  },
+  {
+   "decision_id": "D-02181",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T16:16:29.019Z (A-00628); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T15:10:00.686Z"
+  },
+  {
+   "decision_id": "D-02246",
+   "status": "NO_ACTION",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "page already live until 2026-10-01T16:16:29.019Z (A-00628); no_message: goal G07 gets the home page only (nothing concrete and honest to say)",
+   "published_at": "2026-10-01T15:24:21.894Z"
+  },
+  {
+   "decision_id": "D-02428",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:16:25.001Z"
+  }
+ ],
+ "actions": [
+  "A-00142",
+  "A-00628",
+  "A-00845"
+ ],
+ "live_page": {
+  "action_id": "A-00845",
+  "dialect": "d4",
+  "published_at": "2026-10-01T16:16:24.991Z",
+  "expires_at": "2026-10-01T18:16:24.991Z",
+  "slugs": [
+   "bagi-baya-d4",
+   "baguti-gida-d4",
+   "daya-d4",
+   "hada-maloni-d4",
+   "hane-d4",
+   "koha-kagite-d4",
+   "lapa-mavada-d4",
+   "loba-d4",
+   "nada-sada-d4",
+   "nakalo-yasa-d4",
+   "nava-d4",
+   "netisa-d4",
+   "nisu-sapapa-d4",
+   "pavachu-kona-d4",
+   "radi-d4",
+   "raja-d4",
+   "ramo-d4",
+   "rija-d4",
+   "risuro-pagi-d4",
+   "riya-gune-d4",
+   "rosu-makagi-d4",
+   "royadha-niko-d4",
+   "suha-d4",
+   "teroko-padha-d4",
+   "tidaka-koni-d4",
+   "tiko-subava-d4",
+   "vadi-d4"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T16:16:24.932Z",
+  "dialect": "d4"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03024",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T04:55:07.876Z",
+   "deadline": "2026-10-04T04:55:07.876Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "failed",
+   "evidence": [],
+   "detail": "window fully observed with no qualifying event",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {
+   "G07": 1
+  },
+  "goal_successes": {},
+  "notes": [
+   "G07 failed (started 2026-10-01T04:55:07.876Z): after 2 failures this goal is tried last next time"
+  ]
+ },
+ "flags": []
+}

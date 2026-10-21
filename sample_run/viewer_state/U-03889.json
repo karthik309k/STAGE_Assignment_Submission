@@ -1,0 +1,100 @@
+{
+ "viewer_id": "U-03889",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G12",
+  "name": "return_after_absence_7d",
+  "started_at": "2026-10-01T15:06:12.023Z",
+  "deadline": "2026-10-08T15:06:12.023Z",
+  "window_hours": 168,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "any title",
+   "window_hours": 168
+  },
+  "status": "open",
+  "context": {},
+  "assumptions": [
+   "absence judged from received events only; other devices are unknown"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "4fc73d3a-4a51-428a-987e-755fc3958a95": "D-02121"
+ },
+ "handled_sessions": {
+  "a481e76e-efb2-4f4d-bd42-0088d5a90250": "D-02121"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02121",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G12",
+   "reason": null,
+   "published_at": "2026-10-01T15:06:12.393Z"
+  }
+ ],
+ "actions": [
+  "A-00738"
+ ],
+ "live_page": {
+  "action_id": "A-00738",
+  "dialect": "d2",
+  "published_at": "2026-10-01T15:06:12.383Z",
+  "expires_at": "2026-10-01T17:06:12.383Z",
+  "slugs": [
+   "baha-lobhaka-d2",
+   "bhaja-moguba-d2",
+   "chugu-d2",
+   "dava-nedi-d2",
+   "dhapipa-gini-d2",
+   "gidi-chudi-d2",
+   "guneba-guba-d2",
+   "molo-d2",
+   "neba-d2",
+   "nipi-maniba-d2",
+   "rigu-dhadi-d2",
+   "riya-d2",
+   "vagiva-teda-d2",
+   "vate-vavada-d2",
+   "yate-d2"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T15:06:12.023Z",
+  "dialect": "d2"
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-03889",
+   "arm": "agent",
+   "goal_id": "G12",
+   "started_at": "2026-10-01T15:06:12.023Z",
+   "deadline": "2026-10-08T15:06:12.023Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-024814"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G12": 1
+  },
+  "notes": [
+   "G12 succeeded (started 2026-10-01T15:06:12.023Z): keep using"
+  ]
+ },
+ "flags": []
+}

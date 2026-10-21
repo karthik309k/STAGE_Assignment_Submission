@@ -1,0 +1,125 @@
+{
+ "viewer_id": "U-00116",
+ "arm": "agent",
+ "active_goal": {
+  "goal_id": "G07",
+  "name": "resume_series_3d",
+  "started_at": "2026-10-01T16:59:53.740Z",
+  "deadline": "2026-10-04T16:59:53.740Z",
+  "window_hours": 72,
+  "rule_version": "v1",
+  "success": {
+   "event": "play_started",
+   "condition": "same content_slug as the unfinished series",
+   "window_hours": 72
+  },
+  "status": "open",
+  "context": {
+   "slug": "rasuya-moni-d6",
+   "title_id": "T1387",
+   "next_ep": "rasuya-moni-d6-s1e6",
+   "next_ep_no": 6
+  },
+  "assumptions": [
+   "viewer has not played any episode of this series since the last play"
+  ]
+ },
+ "goal_history": [],
+ "processed_triggers": {
+  "2ec4f124-59e1-4694-970c-e7399a7cdd5f": "D-02579"
+ },
+ "handled_sessions": {
+  "09b78dd7-df7a-4002-8e4c-54637fcc5191": "D-02579"
+ },
+ "decisions": [
+  {
+   "decision_id": "D-02579",
+   "status": "PUBLISHED",
+   "action": "HOME_PAGE",
+   "goal": "G07",
+   "reason": null,
+   "published_at": "2026-10-01T16:59:54.110Z"
+  },
+  {
+   "decision_id": "D-02582",
+   "status": "DUPLICATE_IGNORED",
+   "action": "NO_ACTION",
+   "goal": null,
+   "reason": "duplicate trigger: this event_id was already processed; no second action",
+   "published_at": "2026-10-01T17:00:20.728Z"
+  }
+ ],
+ "actions": [
+  "A-00896"
+ ],
+ "live_page": {
+  "action_id": "A-00896",
+  "dialect": "d6",
+  "published_at": "2026-10-01T16:59:54.100Z",
+  "expires_at": "2026-10-01T18:59:54.100Z",
+  "slugs": [
+   "badha-d6",
+   "bhari-vagi-d6",
+   "dhachu-rogi-d6",
+   "digu-d6",
+   "hani-pidi-d6",
+   "hari-guna-d6",
+   "jama-d6",
+   "kaka-d6",
+   "lojane-pijasa-d6",
+   "loyate-d6",
+   "mopila-bani-d6",
+   "moro-larova-d6",
+   "naka-d6",
+   "nasachu-dhapa-d6",
+   "piri-jama-d6",
+   "pivari-lava-d6",
+   "rako-pati-d6",
+   "rasuya-moni-d6",
+   "sane-tisu-d6",
+   "suchumo-yadi-d6",
+   "sunini-d6",
+   "tidi-d6",
+   "vaba-d6",
+   "vaka-vachu-d6",
+   "vamapi-gidi-d6",
+   "vasuka-dhanite-d6",
+   "yagi-dagi-d6"
+  ]
+ },
+ "pending": [],
+ "message_ledger": {},
+ "facts_summary": {
+  "as_of": "2026-10-01T17:00:20.718Z",
+  "dialect": null
+ },
+ "replans": [],
+ "outcomes": [
+  {
+   "viewer_id": "U-00116",
+   "arm": "agent",
+   "goal_id": "G07",
+   "started_at": "2026-10-01T16:59:53.740Z",
+   "deadline": "2026-10-04T16:59:53.740Z",
+   "rule_version": "v1",
+   "rule_history": [],
+   "closed_reason": null,
+   "status": "succeeded",
+   "evidence": [
+    "event:oua-000716"
+   ],
+   "detail": "1 qualifying event(s) in window (rule v1)",
+   "observed_until": "2026-10-15T17:58:40.000Z"
+  }
+ ],
+ "learnings": {
+  "goal_failures": {},
+  "goal_successes": {
+   "G07": 1
+  },
+  "notes": [
+   "G07 succeeded (started 2026-10-01T16:59:53.740Z): keep using"
+  ]
+ },
+ "flags": []
+}
