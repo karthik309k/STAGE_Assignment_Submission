@@ -61,3 +61,15 @@ Settings (budgets 8 model / 20 tool calls, timeouts, thresholds, worker count) a
 Optional real model: `model_mode: "anthropic"` + `ANTHROPIC_API_KEY` (off by default; sends only goal ids and rule reasons; see KNOWN_LIMITATIONS).
 
 See `ARCHITECTURE.md`, `AI_COLLABORATION.md`, `KNOWN_LIMITATIONS.md`, and `DISCUSSION_PREP.md`.
+
+
+> **For reviewers: 2-minute orientation**
+> * **Run it:** place the data pack outside this folder, then
+>   `PYTHONPATH=src python3 -m oua replay --pack <path to one_user_one_agent_pack> --out sample_run --seed <any>`
+>   (Windows PowerShell: `$env:PYTHONPATH="src"` first, then `python -m oua replay ...`). No API key needed; about 30 seconds.
+> * **Tests:** `python -m pytest tests -q` (44 tests, self-contained, no data pack needed).
+> * **Start reading here:** `sample_run/final_report.md` (summary, data issues and how each was handled), then `sample_run/impact_report.md`, then `ARCHITECTURE.md`.
+> * **Headline result, stated plainly:** no detectable uplift in the replay (+1.2 pts goal success, 95% CI -2.1 to +4.5; it moves with the simulator seed). The pilot report's claimed +22.4 pts is a selection artefact; the randomised pilot difference is about -1.3 pts. Safety: 0 actions to holdout viewers, 0 simulator policy problems, all decisions published well inside 60 s.
+> * **Audit any viewer:** `python -m oua audit U-04621 --run sample_run`. Independent re-check of the whole run: `python tools/check_run.py --pack <pack> --run sample_run`.
+> * **Known gaps:** see `KNOWN_LIMITATIONS.md` (mock model by default, simulated dependency latency, one replay day).
+> * **Data pack:** not included in this repository (personal-data rule); pass its location with `--pack`.
